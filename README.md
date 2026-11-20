@@ -46,8 +46,9 @@ The reset button supports shared devices; this is not a tamper-proof assessment.
 Procedural Web Audio models four-cylinder firing pulses, exhaust harmonics and
 wind. It follows engine RPM and drops in pitch after shifts. This is synthesized
 sound, not a licensed vehicle recording. Audio starts from the launch gesture;
-use Sound off to mute. Pause stops the race clock and sound. Switching away from
-the tab pauses the race until Resume. Reduced-motion preferences suppress
+sound starts off and remembers your choice on this browser. Pause stops the race
+clock and sound. Switching away from the tab or browser window pauses the race
+until Resume. Reduced-motion preferences suppress
 background movement and speed streaks while keeping essential barriers visible.
 Live speed uses mph; graphs and exports label their SI or km/h units explicitly.
 

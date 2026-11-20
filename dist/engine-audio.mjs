@@ -1,7 +1,8 @@
 // Procedural four-cylinder exhaust pulses: two firing events per revolution.
 // No downloaded recordings; pitch follows actual simulated engine RPM.
 export class EngineAudio{
- constructor(){this.enabled=true;this.available=true;}
+ constructor(){this.enabled=false;this.available=true;try{this.enabled=localStorage.getItem('drag-lab-audio')==='on';}catch{}}
+ setEnabled(value){this.enabled=Boolean(value);try{localStorage.setItem('drag-lab-audio',this.enabled?'on':'off');}catch{}}
  async start(){
   try{
    if(!this.ctx){

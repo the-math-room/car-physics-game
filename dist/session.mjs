@@ -10,7 +10,16 @@ export function restore(raw){
     const validSelection=v=>v && keys.every(k=>catalog[k].some(p=>p.id===v[k])||(k==='engine'&&legacyEngines.some(p=>p.id===v[k])));
     const validRPM=v=>Number.isInteger(v)&&v>=5000&&v<=7000&&v%250===0;
     if(!validSelection(s.selection)||!validRPM(s.rpm)||typeof s.prediction!=='string') return fresh();
-    if(!s.runs.every(r=>validSelection(r.selection)&&validRPM(r.rpm)&&Number.isFinite(r.result?.time)&&r.result.time>0&&Array.isArray(r.result.trace)&&r.result.trace.length>0&&[100,300,600].every(m=>Number.isFinite(r.result.splits?.[m]))&&typeof r.prediction==='string')) return fresh();
+    const nonnegative=v=>Number.isFinite(v)&&v>=0;
+    // Recover usable results independently when a saved record is damaged.
+    s.runs=s.runs.filter(r=>{
+      const v=r?.result;
+      return r&&validSelection(r.selection)&&validRPM(r.rpm)&&typeof r.prediction==='string'&&nonnegative(r.cost)&&
+        v&&Number.isFinite(v.time)&&v.time>0&&nonnegative(v.speed)&&nonnegative(v.tractionLimitedSeconds)&&Number.isInteger(v.shifts)&&v.shifts>=0&&
+        Array.isArray(v.trace)&&v.trace.length>0&&v.trace.every(row=>Array.isArray(row)&&row.length===7&&row.every(Number.isFinite))&&
+        [100,300,600].every(m=>Number.isFinite(v.splits?.[m])&&v.splits[m]>0)&&v.splits[100]<v.splits[300]&&v.splits[300]<v.splits[600]&&
+        (!r.survival||(nonnegative(r.survival.distance)&&nonnegative(r.survival.time)&&typeof r.survival.crashed==='boolean'));
+    });
     const legacy=legacyEngines.find(e=>e.id===s.selection.engine);
     if(legacy)s.selection.engine=`engine-${Math.round(peakPower(legacy)/HP_TO_KW)}`;
     return s;

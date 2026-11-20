@@ -18,9 +18,11 @@ const label=(k,id)=>k==='engine'&&oldNames[id]?oldNames[id]:labels[k][catalog[k]
 let storageOK=true,state;
 try{state=restore(localStorage.getItem(STORAGE_KEY));}catch{state=fresh();storageOK=false;}
 const engineAudio=new EngineAudio();
+$('#sound').textContent=engineAudio.enabled?'Sound on':'Sound off';
+$('#sound').setAttribute('aria-pressed',String(engineAudio.enabled));
 let driver={lane:0,target:0,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches},paused=false;
 let racing=false,frame=0,lastSample=[0,0,0,0,0,0,0],lastRace=null;
-function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch{storageOK=false;}if(!storageOK)$('#status').textContent='Browser storage is unavailable. Keep this tab open and export your results.';}
+function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));storageOK=true;}catch{storageOK=false;}$('#storage-warning').hidden=storageOK;}
 $('#parts').innerHTML=keys.map(k=>`<div class="part-group"><label class="part-label" for="part-${k}">${names[k]}<span id="price-${k}"></span></label><button type="button" class="modify-part" id="modify-${k}"><span id="selected-${k}"></span><b>Modify</b></button><select hidden aria-hidden="true" tabindex="-1" id="part-${k}">${catalog[k].map((p,i)=>`<option value="${p.id}">${labels[k][i]} · ${p.cost?money(p.cost):'Included'}</option>`).join('')}</select><p class="part-detail" id="detail-${k}"></p></div>`).join('');
 for(const k of keys){$(`#part-${k}`).value=state.selection[k];$(`#part-${k}`).addEventListener('change',e=>{state.selection[k]=e.target.value;save();render();});}
 const openLab=mountUpgradeLab({getBuild:()=>resolve(state.selection),getSelection:()=>state.selection,apply:(k,id)=>{if(racing)return;state.selection[k]=id;$(`#part-${k}`).value=id;save();render();},names,labels,descriptions});
@@ -77,10 +79,11 @@ function telemetry(p){lastSample=p;$('#elapsed').innerHTML=`${p[0].toFixed(2)} <
 function changeLane(direction){if(!racing||paused)return;driver.target=steer(driver.target,direction);}
 window.addEventListener('keydown',event=>{if(!racing||document.querySelector('dialog[open]')||event.target.closest?.('select,input,textarea'))return;if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();changeLane(event.key==='ArrowLeft'?-1:1);}});
 for(const [id,dir] of [['#steer-left',-1],['#steer-right',1]])$(id).addEventListener('pointerdown',event=>{event.preventDefault();changeLane(dir);});
-$('#sound').addEventListener('click',()=>{engineAudio.enabled=!engineAudio.enabled;$('#sound').textContent=engineAudio.enabled?'Sound on':'Sound off';$('#sound').setAttribute('aria-pressed',String(engineAudio.enabled));if(!engineAudio.enabled)engineAudio.stop();else if(racing&&!paused)engineAudio.start();});
+$('#sound').addEventListener('click',()=>{engineAudio.setEnabled(!engineAudio.enabled);$('#sound').textContent=engineAudio.enabled?'Sound on':'Sound off';$('#sound').setAttribute('aria-pressed',String(engineAudio.enabled));if(!engineAudio.enabled)engineAudio.stop();else if(racing&&!paused)engineAudio.start();});
 function setPaused(value){if(!racing)return;paused=value;$('#pause').textContent=paused?'Resume':'Pause';if(paused){engineAudio.stop();$('#race-state').textContent='PAUSED';drawTrack(lastSample,'PAUSED');}}
 $('#pause').addEventListener('click',()=>setPaused(!paused));
 document.addEventListener('visibilitychange',()=>{if(document.hidden)setPaused(true);});
+window.addEventListener('blur',()=>setPaused(true));
 $('#launch').addEventListener('click',()=>{
   if(racing||!canLaunch(state))return;
   const result=run(resolve(state.selection),state.rpm);lastRace=result;

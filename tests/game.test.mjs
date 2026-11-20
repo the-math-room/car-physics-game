@@ -85,3 +85,42 @@ test('survival obstacles tighten after 600 m and leave a changing lane',async()=
  const distinct=[...new Set(late.map(o=>o.at))];assert.ok(distinct[1]-distinct[0]<early[1].at-early[0].at);
  const barrier=late[0];assert.equal(collision(barrier.at-.1,barrier.at+.1,barrier.lane,barrier.lane).at,barrier.at);
 });
+
+test('damaged saved results are skipped while valid runs and the build survive',()=>{
+ const state=fresh();state.selection.engine='engine-180';state.prediction='Compare grip.';
+ record(state,run(resolve(state.selection)));
+ const good=structuredClone(state.runs[0]);
+ const mutations=[r=>delete r.result.speed,r=>r.result.trace[0][2]='bad',r=>r.result.tractionLimitedSeconds=null,r=>r.survival={distance:'bad',time:30,crashed:true}];
+ for(const mutate of mutations){const damaged=structuredClone(good);mutate(damaged);state.runs.push(damaged);}
+ state.runs.push(null,good);
+ const recovered=restore(JSON.stringify(state));
+ assert.equal(recovered.runs.length,2);assert.deepEqual(recovered.runs,[good,good]);
+ assert.deepEqual(recovered.selection,state.selection);assert.equal(recovered.prediction,state.prediction);
+});
+
+test('sound defaults off, remembers the choice, and tolerates blocked storage',async()=>{
+ const {EngineAudio}=await import('../dist/engine-audio.mjs');
+ const original=Object.getOwnPropertyDescriptor(globalThis,'localStorage');
+ try{
+  const data=new Map();Object.defineProperty(globalThis,'localStorage',{configurable:true,value:{getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v)}});
+  assert.equal(new EngineAudio().enabled,false);
+  const audio=new EngineAudio();audio.setEnabled(true);assert.equal(new EngineAudio().enabled,true);
+  audio.setEnabled(false);assert.equal(new EngineAudio().enabled,false);
+  Object.defineProperty(globalThis,'localStorage',{configurable:true,get(){throw new Error('Blocked');}});
+  const blocked=new EngineAudio();assert.equal(blocked.enabled,false);assert.doesNotThrow(()=>blocked.setEnabled(true));
+ }finally{if(original)Object.defineProperty(globalThis,'localStorage',original);else delete globalThis.localStorage;}
+});
+
+test('survival introduces double barriers gradually and avoids full-width forced jumps',async()=>{
+ const {obstaclesBetween,LANES}=await import('../dist/driving.mjs');
+ const rows=[...Map.groupBy(obstaclesBetween(600,2200),o=>o.at).values()];
+ assert.ok(rows.slice(0,24).every(row=>row.length===1));
+ assert.equal(rows[24].length,2);
+ assert.ok(rows.slice(25,30).every(row=>row.length===1));
+ assert.ok(rows.slice(24,54).some(row=>row.length===1));
+ assert.ok(rows.slice(54).every(row=>row.length===2));
+ const safe=row=>LANES.find(lane=>row.every(o=>o.lane!==lane));
+ for(let i=55;i<rows.length;i++)assert.ok(Math.abs(safe(rows[i])-safe(rows[i-1]))<=.55);
+ const gap=rows[25][0].at-rows[24][0].at;
+ assert.ok(gap>19*Math.pow(.975,24));
+});

@@ -5,12 +5,14 @@ export const COURSE=Array.from({length:28},(_,i)=>({at:55+i*19,lane:LANES[[1,0,2
 const survival=[];let nextAt=625,index=0;
 export function obstaclesBetween(from,to){
  while(nextAt<=to){
-  if(index<24)survival.push({at:nextAt,lane:LANES[index%3]});
+  // Introduce double barriers occasionally, then increase their frequency.
+  const doubleEvery=Math.max(1,6-Math.floor((index-24)/6));
+  if(index<24||(index-24)%doubleEvery!==0)survival.push({at:nextAt,lane:LANES[index%3]});
   else {
    // Two barriers leave a single changing lane as the challenge intensifies.
-   const safe=index%3;for(let lane=0;lane<3;lane++)if(lane!==safe)survival.push({at:nextAt,lane:LANES[lane],wide:true});
+   const safe=[0,1,2,1][index%4];for(let lane=0;lane<3;lane++)if(lane!==safe)survival.push({at:nextAt,lane:LANES[lane],wide:true});
   }
-  nextAt+=Math.max(4,19*Math.pow(.975,index++));
+  nextAt+=Math.max(4,19*Math.pow(.98,index++));
  }
  return [...COURSE,...survival].filter(o=>o.at>from&&o.at<=to);
 }
