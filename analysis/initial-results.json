@@ -1,0 +1,1515 @@
+{
+  "model": "Fictional coupe, ideal traction control and launch clutch; no tire-slip dynamics, turbo transient, rotational inertia, wind or thermal effects.",
+  "configurations": 648,
+  "shiftSettings": 9,
+  "runsInMainSweep": 5832,
+  "baseline": {
+    "cost": 0,
+    "build": {
+      "engine": "stock",
+      "tires": "street",
+      "weight": "stock",
+      "aero": "stock",
+      "gearing": "standard",
+      "shifter": "standard"
+    },
+    "time": 21.021910690282553,
+    "speed": 154.61039867780457,
+    "shifts": 3,
+    "tractionLimitedSeconds": 2.960000000000002,
+    "splits": {
+      "100": 6.9239436257143305,
+      "300": 13.434756252429242,
+      "600": 21.021910690282553
+    },
+    "rpm": 7000
+  },
+  "catalog": {
+    "engine": [
+      {
+        "id": "stock",
+        "cost": 0,
+        "mass": 0,
+        "curve": [
+          130,
+          155,
+          170,
+          175,
+          165,
+          145,
+          110
+        ]
+      },
+      {
+        "id": "intake-exhaust-tune",
+        "cost": 1500,
+        "mass": 0,
+        "curve": [
+          132,
+          158,
+          177,
+          187,
+          185,
+          165,
+          125
+        ]
+      },
+      {
+        "id": "responsive-turbo",
+        "cost": 6000,
+        "mass": 30,
+        "curve": [
+          145,
+          210,
+          265,
+          275,
+          260,
+          225,
+          170
+        ]
+      },
+      {
+        "id": "top-end-turbo",
+        "cost": 6500,
+        "mass": 38,
+        "curve": [
+          125,
+          155,
+          220,
+          280,
+          300,
+          280,
+          225
+        ]
+      }
+    ],
+    "tires": [
+      {
+        "id": "street",
+        "cost": 0,
+        "mu": 0.85,
+        "crr": 0.012
+      },
+      {
+        "id": "sport",
+        "cost": 750,
+        "mu": 1.05,
+        "crr": 0.013
+      },
+      {
+        "id": "drag",
+        "cost": 1100,
+        "mu": 1.2,
+        "crr": 0.015
+      }
+    ],
+    "weight": [
+      {
+        "id": "stock",
+        "cost": 0,
+        "mass": 0
+      },
+      {
+        "id": "battery",
+        "cost": 650,
+        "mass": -10
+      },
+      {
+        "id": "lightweight-package",
+        "cost": 2200,
+        "mass": -35
+      }
+    ],
+    "aero": [
+      {
+        "id": "stock",
+        "cost": 0,
+        "mass": 0,
+        "cda": 0.68
+      },
+      {
+        "id": "undertray",
+        "cost": 400,
+        "mass": 4,
+        "cda": 0.66
+      },
+      {
+        "id": "underbody-package",
+        "cost": 1100,
+        "mass": 9,
+        "cda": 0.63
+      }
+    ],
+    "gearing": [
+      {
+        "id": "standard",
+        "cost": 0,
+        "ratio": 4.1
+      },
+      {
+        "id": "tall",
+        "cost": 850,
+        "ratio": 3.6
+      },
+      {
+        "id": "short",
+        "cost": 850,
+        "ratio": 4.6
+      }
+    ],
+    "shifter": [
+      {
+        "id": "standard",
+        "cost": 0,
+        "delay": 0.45
+      },
+      {
+        "id": "short-throw",
+        "cost": 400,
+        "delay": 0.35
+      }
+    ]
+  },
+  "budgetResults": [
+    {
+      "budget": 3000,
+      "best": {
+        "cost": 2650,
+        "build": {
+          "engine": "intake-exhaust-tune",
+          "tires": "sport",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 19.801357864224506,
+        "speed": 162.6943631401418,
+        "shifts": 3,
+        "tractionLimitedSeconds": 0.3,
+        "splits": {
+          "100": 6.368477050537223,
+          "300": 12.557298727232439,
+          "600": 19.801357864224506
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 7,
+      "engineWinners": [
+        {
+          "cost": 3000,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "battery",
+            "aero": "stock",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.413304087820975,
+          "speed": 155.91998937094675,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.429712249002088,
+            "300": 12.87106285171762,
+            "600": 20.413304087820975
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 2650,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "sport",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 19.801357864224506,
+          "speed": 162.6943631401418,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0.3,
+          "splits": {
+            "100": 6.368477050537223,
+            "300": 12.557298727232439,
+            "600": 19.801357864224506
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 5000,
+      "best": {
+        "cost": 4850,
+        "build": {
+          "engine": "intake-exhaust-tune",
+          "tires": "sport",
+          "weight": "lightweight-package",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 19.61456576973617,
+        "speed": 164.03377207554533,
+        "shifts": 3,
+        "tractionLimitedSeconds": 0.7400000000000003,
+        "splits": {
+          "100": 6.298434150424197,
+          "300": 12.430299127038992,
+          "600": 19.61456576973617
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 25,
+      "engineWinners": [
+        {
+          "cost": 4950,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "undertray",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.267580544747915,
+          "speed": 157.08624310842694,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.383519987489236,
+            "300": 12.78318092171175,
+            "600": 20.267580544747915
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 4850,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "sport",
+            "weight": "lightweight-package",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 19.61456576973617,
+          "speed": 164.03377207554533,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0.7400000000000003,
+          "splits": {
+            "100": 6.298434150424197,
+            "300": 12.430299127038992,
+            "600": 19.61456576973617
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 6500,
+      "best": {
+        "cost": 6500,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "street",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "standard"
+        },
+        "time": 18.458567767721096,
+        "speed": 187.8098927782259,
+        "shifts": 4,
+        "tractionLimitedSeconds": 5.479999999999971,
+        "splits": {
+          "100": 6.67888761407678,
+          "300": 12.244469936005057,
+          "600": 18.458567767721096
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 1,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 6450,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "undertray",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.512287556861434,
+          "speed": 163.6112278378595,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.198357200400738,
+            "300": 12.351264314673443,
+            "600": 19.512287556861434
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 6400,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "street",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 18.96957208694783,
+          "speed": 179.82337899979117,
+          "shifts": 3,
+          "tractionLimitedSeconds": 4.499999999999992,
+          "splits": {
+            "100": 6.673664750037827,
+            "300": 12.418032789938762,
+            "600": 18.96957208694783
+          },
+          "rpm": 6750
+        },
+        {
+          "cost": 6500,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "street",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "standard"
+          },
+          "time": 18.458567767721096,
+          "speed": 187.8098927782259,
+          "shifts": 4,
+          "tractionLimitedSeconds": 5.479999999999971,
+          "splits": {
+            "100": 6.67888761407678,
+            "300": 12.244469936005057,
+            "600": 18.458567767721096
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 7500,
+      "best": {
+        "cost": 7250,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "sport",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "standard"
+        },
+        "time": 17.625029328472433,
+        "speed": 188.83287570373528,
+        "shifts": 4,
+        "tractionLimitedSeconds": 2.620000000000002,
+        "splits": {
+          "100": 6.043655955055218,
+          "300": 11.45875154769836,
+          "600": 17.625029328472433
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 1,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7150,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.508224204267837,
+          "speed": 164.09056536059046,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.208161415743892,
+            "300": 12.360753499446059,
+            "600": 19.508224204267837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7500,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "drag",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.989926551605837,
+          "speed": 179.54498483995243,
+          "shifts": 3,
+          "tractionLimitedSeconds": 1.8800000000000012,
+          "splits": {
+            "100": 5.80164395147511,
+            "300": 11.440083985255665,
+            "600": 17.989926551605837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7250,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "sport",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "standard"
+          },
+          "time": 17.625029328472433,
+          "speed": 188.83287570373528,
+          "shifts": 4,
+          "tractionLimitedSeconds": 2.620000000000002,
+          "splits": {
+            "100": 6.043655955055218,
+            "300": 11.45875154769836,
+            "600": 17.625029328472433
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 8000,
+      "best": {
+        "cost": 8000,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 17.168944156002148,
+        "speed": 190.34759110645615,
+        "shifts": 4,
+        "tractionLimitedSeconds": 1.2200000000000006,
+        "splits": {
+          "100": 5.725904567140361,
+          "300": 11.047456207709471,
+          "600": 17.168944156002148
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 3,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7150,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.508224204267837,
+          "speed": 164.09056536059046,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.208161415743892,
+            "300": 12.360753499446059,
+            "600": 19.508224204267837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7900,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "drag",
+            "weight": "stock",
+            "aero": "undertray",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.984605311136555,
+          "speed": 179.87504203181814,
+          "shifts": 3,
+          "tractionLimitedSeconds": 1.8800000000000012,
+          "splits": {
+            "100": 5.803552558985906,
+            "300": 11.44215001655083,
+            "600": 17.984605311136555
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 8000,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "drag",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.168944156002148,
+          "speed": 190.34759110645615,
+          "shifts": 4,
+          "tractionLimitedSeconds": 1.2200000000000006,
+          "splits": {
+            "100": 5.725904567140361,
+            "300": 11.047456207709471,
+            "600": 17.168944156002148
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 8500,
+      "best": {
+        "cost": 8000,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 17.168944156002148,
+        "speed": 190.34759110645615,
+        "shifts": 4,
+        "tractionLimitedSeconds": 1.2200000000000006,
+        "splits": {
+          "100": 5.725904567140361,
+          "300": 11.047456207709471,
+          "600": 17.168944156002148
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 5,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7150,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.508224204267837,
+          "speed": 164.09056536059046,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.208161415743892,
+            "300": 12.360753499446059,
+            "600": 19.508224204267837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 8350,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "drag",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "tall",
+            "shifter": "short-throw"
+          },
+          "time": 17.920669186575935,
+          "speed": 179.18582949406067,
+          "shifts": 3,
+          "tractionLimitedSeconds": 1.8200000000000012,
+          "splits": {
+            "100": 5.749938941596787,
+            "300": 11.35934233185593,
+            "600": 17.920669186575935
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 8000,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "drag",
+            "weight": "stock",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.168944156002148,
+          "speed": 190.34759110645615,
+          "shifts": 4,
+          "tractionLimitedSeconds": 1.2200000000000006,
+          "splits": {
+            "100": 5.725904567140361,
+            "300": 11.047456207709471,
+            "600": 17.168944156002148
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 9000,
+      "best": {
+        "cost": 8650,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "battery",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 17.128280403888187,
+        "speed": 190.788196980957,
+        "shifts": 4,
+        "tractionLimitedSeconds": 1.2400000000000007,
+        "splits": {
+          "100": 5.7115616318732405,
+          "300": 11.020091300029577,
+          "600": 17.128280403888187
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 8,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7150,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.508224204267837,
+          "speed": 164.09056536059046,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.208161415743892,
+            "300": 12.360753499446059,
+            "600": 19.508224204267837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 9000,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "drag",
+            "weight": "battery",
+            "aero": "stock",
+            "gearing": "tall",
+            "shifter": "short-throw"
+          },
+          "time": 17.88606237543848,
+          "speed": 179.58884319326853,
+          "shifts": 3,
+          "tractionLimitedSeconds": 1.8400000000000012,
+          "splits": {
+            "100": 5.743537311450418,
+            "300": 11.339239043496782,
+            "600": 17.88606237543848
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 8650,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "drag",
+            "weight": "battery",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.128280403888187,
+          "speed": 190.788196980957,
+          "shifts": 4,
+          "tractionLimitedSeconds": 1.2400000000000007,
+          "splits": {
+            "100": 5.7115616318732405,
+            "300": 11.020091300029577,
+            "600": 17.128280403888187
+          },
+          "rpm": 7000
+        }
+      ]
+    },
+    {
+      "budget": 10000,
+      "best": {
+        "cost": 9750,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "battery",
+          "aero": "underbody-package",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 17.12278734433792,
+        "speed": 191.82837465720306,
+        "shifts": 4,
+        "tractionLimitedSeconds": 1.2200000000000006,
+        "splits": {
+          "100": 5.7224937794106125,
+          "300": 11.030873929173934,
+          "600": 17.12278734433792
+        },
+        "rpm": 7000
+      },
+      "withinTwoTenths": 21,
+      "engineWinners": [
+        {
+          "cost": 5650,
+          "build": {
+            "engine": "stock",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 20.26225314278245,
+          "speed": 157.56500971782958,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.393314351752588,
+            "300": 12.792878358312459,
+            "600": 20.26225314278245
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 7150,
+          "build": {
+            "engine": "intake-exhaust-tune",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "underbody-package",
+            "gearing": "short",
+            "shifter": "short-throw"
+          },
+          "time": 19.508224204267837,
+          "speed": 164.09056536059046,
+          "shifts": 3,
+          "tractionLimitedSeconds": 0,
+          "splits": {
+            "100": 6.208161415743892,
+            "300": 12.360753499446059,
+            "600": 19.508224204267837
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 9700,
+          "build": {
+            "engine": "responsive-turbo",
+            "tires": "drag",
+            "weight": "lightweight-package",
+            "aero": "stock",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.8672498443304,
+          "speed": 180.8240121598736,
+          "shifts": 3,
+          "tractionLimitedSeconds": 1.9200000000000013,
+          "splits": {
+            "100": 5.781371219924761,
+            "300": 11.37242601853713,
+            "600": 17.8672498443304
+          },
+          "rpm": 7000
+        },
+        {
+          "cost": 9750,
+          "build": {
+            "engine": "top-end-turbo",
+            "tires": "drag",
+            "weight": "battery",
+            "aero": "underbody-package",
+            "gearing": "standard",
+            "shifter": "short-throw"
+          },
+          "time": 17.12278734433792,
+          "speed": 191.82837465720306,
+          "shifts": 4,
+          "tractionLimitedSeconds": 1.2200000000000006,
+          "splits": {
+            "100": 5.7224937794106125,
+            "300": 11.030873929173934,
+            "600": 17.12278734433792
+          },
+          "rpm": 7000
+        }
+      ]
+    }
+  ],
+  "marginals": [
+    {
+      "engine": "stock",
+      "upgrade": "sport",
+      "incrementalCost": 750,
+      "secondsSaved": 0.3457857982430639,
+      "secondsPer1000": 0.46104773099075186
+    },
+    {
+      "engine": "stock",
+      "upgrade": "drag",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.29311661130349975,
+      "secondsPer1000": 0.2664696466395452
+    },
+    {
+      "engine": "stock",
+      "upgrade": "battery",
+      "incrementalCost": 650,
+      "secondsSaved": 0.038489018439079814,
+      "secondsPer1000": 0.059213874521661256
+    },
+    {
+      "engine": "stock",
+      "upgrade": "lightweight-package",
+      "incrementalCost": 2200,
+      "secondsSaved": 0.1337469049725719,
+      "secondsPer1000": 0.06079404771480541
+    },
+    {
+      "engine": "stock",
+      "upgrade": "undertray",
+      "incrementalCost": 400,
+      "secondsSaved": 0.007478164647210406,
+      "secondsPer1000": 0.018695411618026014
+    },
+    {
+      "engine": "stock",
+      "upgrade": "underbody-package",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.022363375704092192,
+      "secondsPer1000": 0.020330341549174718
+    },
+    {
+      "engine": "stock",
+      "upgrade": "tall",
+      "incrementalCost": 850,
+      "secondsSaved": 0.1395925931291302,
+      "secondsPer1000": 0.16422658015191785
+    },
+    {
+      "engine": "stock",
+      "upgrade": "short",
+      "incrementalCost": 850,
+      "secondsSaved": -0.07636233661333947,
+      "secondsPer1000": -0.08983804307451702
+    },
+    {
+      "engine": "stock",
+      "upgrade": "short-throw",
+      "incrementalCost": 400,
+      "secondsSaved": 0.12565578318989878,
+      "secondsPer1000": 0.31413945797474696
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "sport",
+      "incrementalCost": 750,
+      "secondsSaved": 0.4902741903444756,
+      "secondsPer1000": 0.6536989204593008
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "drag",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.44550662433161037,
+      "secondsPer1000": 0.4050060221196458
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "battery",
+      "incrementalCost": 650,
+      "secondsSaved": 0.036311752099692285,
+      "secondsPer1000": 0.055864233999526586
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "lightweight-package",
+      "incrementalCost": 2200,
+      "secondsSaved": 0.12530610798116015,
+      "secondsPer1000": 0.05695732180961825
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "undertray",
+      "incrementalCost": 400,
+      "secondsSaved": 0.0076973265140445335,
+      "secondsPer1000": 0.019243316285111334
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "underbody-package",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.02274196174506926,
+      "secondsPer1000": 0.02067451067733569
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "tall",
+      "incrementalCost": 850,
+      "secondsSaved": 0.12957047955744017,
+      "secondsPer1000": 0.1524358583028708
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "short",
+      "incrementalCost": 850,
+      "secondsSaved": -0.05773445849094472,
+      "secondsPer1000": -0.0679228923422879
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "upgrade": "short-throw",
+      "incrementalCost": 400,
+      "secondsSaved": 0.13438714231017457,
+      "secondsPer1000": 0.3359678557754364
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "sport",
+      "incrementalCost": 750,
+      "secondsSaved": 0.6923486288534342,
+      "secondsPer1000": 0.9231315051379123
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "drag",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.9809764302575736,
+      "secondsPer1000": 0.8917967547796124
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "battery",
+      "incrementalCost": 650,
+      "secondsSaved": 0.02554710347006761,
+      "secondsPer1000": 0.039303236107796326
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "lightweight-package",
+      "incrementalCost": 2200,
+      "secondsSaved": 0.08909261295007909,
+      "secondsPer1000": 0.04049664225003595
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "undertray",
+      "incrementalCost": 400,
+      "secondsSaved": 0.008801715285812861,
+      "secondsPer1000": 0.022004288214532153
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "underbody-package",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.024571412894548672,
+      "secondsPer1000": 0.02233764808595334
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "tall",
+      "incrementalCost": 850,
+      "secondsSaved": 0.08453202855272934,
+      "secondsPer1000": 0.09944944535615217
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "short",
+      "incrementalCost": 850,
+      "secondsSaved": -0.1473011163315654,
+      "secondsPer1000": -0.17329543097831224
+    },
+    {
+      "engine": "responsive-turbo",
+      "upgrade": "short-throw",
+      "incrementalCost": 400,
+      "secondsSaved": 0.15175281655859152,
+      "secondsPer1000": 0.3793820413964788
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "sport",
+      "incrementalCost": 750,
+      "secondsSaved": 0.8335384392486631,
+      "secondsPer1000": 1.1113845856648843
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "drag",
+      "incrementalCost": 1100,
+      "secondsSaved": 1.1264871114341126,
+      "secondsPer1000": 1.0240791922128296
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "battery",
+      "incrementalCost": 650,
+      "secondsSaved": 0.018515308972613553,
+      "secondsPer1000": 0.028485090727097772
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "lightweight-package",
+      "incrementalCost": 2200,
+      "secondsSaved": 0.06373664155533731,
+      "secondsPer1000": 0.028971200706971508
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "undertray",
+      "incrementalCost": 400,
+      "secondsSaved": 0.0068930479211068985,
+      "secondsPer1000": 0.017232619802767246
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "underbody-package",
+      "incrementalCost": 1100,
+      "secondsSaved": 0.022830402447084452,
+      "secondsPer1000": 0.02075491131553132
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "tall",
+      "incrementalCost": 850,
+      "secondsSaved": 0.10738598015602108,
+      "secondsPer1000": 0.12633644724237775
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "short",
+      "incrementalCost": 850,
+      "secondsSaved": -0.12421166960717045,
+      "secondsPer1000": -0.14613137600843581
+    },
+    {
+      "engine": "top-end-turbo",
+      "upgrade": "short-throw",
+      "incrementalCost": 400,
+      "secondsSaved": 0.15922658169365178,
+      "secondsPer1000": 0.39806645423412945
+    }
+  ],
+  "sensitivity": [
+    {
+      "engine": "stock",
+      "coarse": 20.26225314278245,
+      "medium": 20.26633029100991,
+      "fine": 20.259588392368986,
+      "shiftSweep": [
+        {
+          "rpm": 5000,
+          "time": 21.33370618929117
+        },
+        {
+          "rpm": 5500,
+          "time": 20.884571671694538
+        },
+        {
+          "rpm": 6000,
+          "time": 20.545992961465217
+        },
+        {
+          "rpm": 6500,
+          "time": 20.32278741326112
+        },
+        {
+          "rpm": 7000,
+          "time": 20.26225314278245
+        }
+      ],
+      "quarterMile": {
+        "cost": 5650,
+        "build": {
+          "engine": "stock",
+          "tires": "drag",
+          "weight": "lightweight-package",
+          "aero": "underbody-package",
+          "gearing": "short",
+          "shifter": "short-throw"
+        },
+        "time": 15.518786873312003,
+        "speed": 141.28090619923205,
+        "shifts": 3,
+        "tractionLimitedSeconds": 0,
+        "splits": {
+          "100": 6.393314351752588,
+          "300": 12.792878358312459,
+          "402.336": 15.518786873312003
+        },
+        "rpm": 7000
+      },
+      "lowerGrip": {
+        "cost": 5650,
+        "build": {
+          "engine": "stock",
+          "tires": "drag",
+          "weight": "lightweight-package",
+          "aero": "underbody-package",
+          "gearing": "short",
+          "shifter": "short-throw"
+        },
+        "time": 20.286433680661304,
+        "speed": 157.54691822392883,
+        "shifts": 3,
+        "tractionLimitedSeconds": 1.540000000000001,
+        "splits": {
+          "100": 6.414990321959331,
+          "300": 12.81648860563159,
+          "600": 20.286433680661304
+        },
+        "rpm": 7000
+      }
+    },
+    {
+      "engine": "intake-exhaust-tune",
+      "coarse": 19.508224204267837,
+      "medium": 19.512233501026337,
+      "fine": 19.50477423620487,
+      "shiftSweep": [
+        {
+          "rpm": 5000,
+          "time": 20.76079780038224
+        },
+        {
+          "rpm": 5500,
+          "time": 20.24720621063144
+        },
+        {
+          "rpm": 6000,
+          "time": 19.860435831471687
+        },
+        {
+          "rpm": 6500,
+          "time": 19.612427781565547
+        },
+        {
+          "rpm": 7000,
+          "time": 19.508224204267837
+        }
+      ],
+      "quarterMile": {
+        "cost": 7150,
+        "build": {
+          "engine": "intake-exhaust-tune",
+          "tires": "drag",
+          "weight": "lightweight-package",
+          "aero": "underbody-package",
+          "gearing": "short",
+          "shifter": "short-throw"
+        },
+        "time": 14.964886646749813,
+        "speed": 147.93585796778768,
+        "shifts": 3,
+        "tractionLimitedSeconds": 0,
+        "splits": {
+          "100": 6.208161415743892,
+          "300": 12.360753499446059,
+          "402.336": 14.964886646749813
+        },
+        "rpm": 7000
+      },
+      "lowerGrip": {
+        "cost": 7150,
+        "build": {
+          "engine": "intake-exhaust-tune",
+          "tires": "drag",
+          "weight": "lightweight-package",
+          "aero": "underbody-package",
+          "gearing": "short",
+          "shifter": "short-throw"
+        },
+        "time": 19.614325118422265,
+        "speed": 164.0221124339495,
+        "shifts": 3,
+        "tractionLimitedSeconds": 1.9000000000000012,
+        "splits": {
+          "100": 6.299881312230927,
+          "300": 12.462748737067942,
+          "600": 19.614325118422265
+        },
+        "rpm": 7000
+      }
+    },
+    {
+      "engine": "responsive-turbo",
+      "coarse": 17.984605311136555,
+      "medium": 17.989202676723213,
+      "fine": 17.981920918736684,
+      "shiftSweep": [
+        {
+          "rpm": 5000,
+          "time": 18.867583464392833
+        },
+        {
+          "rpm": 5500,
+          "time": 18.50011665896959
+        },
+        {
+          "rpm": 6000,
+          "time": 18.21645983722659
+        },
+        {
+          "rpm": 6500,
+          "time": 18.037795149159194
+        },
+        {
+          "rpm": 7000,
+          "time": 17.984605311136555
+        }
+      ],
+      "quarterMile": {
+        "cost": 7900,
+        "build": {
+          "engine": "responsive-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "undertray",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 13.830963202539522,
+        "speed": 161.4187774412794,
+        "shifts": 3,
+        "tractionLimitedSeconds": 1.8800000000000012,
+        "splits": {
+          "100": 5.803552558985906,
+          "300": 11.44215001655083,
+          "402.336": 13.830963202539522
+        },
+        "rpm": 7000
+      },
+      "lowerGrip": {
+        "cost": 7900,
+        "build": {
+          "engine": "responsive-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "undertray",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 18.235889043987367,
+        "speed": 179.67907069581082,
+        "shifts": 3,
+        "tractionLimitedSeconds": 2.3600000000000017,
+        "splits": {
+          "100": 6.02030388220781,
+          "300": 11.683173620852436,
+          "600": 18.235889043987367
+        },
+        "rpm": 7000
+      }
+    },
+    {
+      "engine": "top-end-turbo",
+      "coarse": 17.168944156002148,
+      "medium": 17.171040783233767,
+      "fine": 17.162455470699648,
+      "shiftSweep": [
+        {
+          "rpm": 5000,
+          "time": 18.681455152742483
+        },
+        {
+          "rpm": 5500,
+          "time": 18.09230266621842
+        },
+        {
+          "rpm": 6000,
+          "time": 17.663452703445067
+        },
+        {
+          "rpm": 6500,
+          "time": 17.35274470399937
+        },
+        {
+          "rpm": 7000,
+          "time": 17.168944156002148
+        }
+      ],
+      "quarterMile": {
+        "cost": 8000,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 13.27471052109407,
+        "speed": 173.0602000695067,
+        "shifts": 3,
+        "tractionLimitedSeconds": 1.2200000000000006,
+        "splits": {
+          "100": 5.725904567140361,
+          "300": 11.047456207709471,
+          "402.336": 13.27471052109407
+        },
+        "rpm": 7000
+      },
+      "lowerGrip": {
+        "cost": 8000,
+        "build": {
+          "engine": "top-end-turbo",
+          "tires": "drag",
+          "weight": "stock",
+          "aero": "stock",
+          "gearing": "standard",
+          "shifter": "short-throw"
+        },
+        "time": 17.413665642174784,
+        "speed": 190.0852047433952,
+        "shifts": 4,
+        "tractionLimitedSeconds": 2.540000000000002,
+        "splits": {
+          "100": 5.93219188013869,
+          "300": 11.281706643199815,
+          "600": 17.413665642174784
+        },
+        "rpm": 7000
+      }
+    }
+  ]
+}

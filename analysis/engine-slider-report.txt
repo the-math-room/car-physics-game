@@ -1,0 +1,73 @@
+HORSEPOWER SLIDER PLAYTEST
+
+The current game keeps an $8,000 parts budget and offers 120–300 hp in 1 hp
+increments. Open Modify engine to preview horsepower, price, added hardware
+mass, total-build power-to-weight, torque and power curves, and marginal cost
+and mass for the next 10 hp. The engine does not change until installed.
+
+Model assumptions
+This is a smooth family of fictional engine packages, not a universal law or
+measured dyno dataset. All power is crankshaft mechanical horsepower (1 hp =
+0.745699872 kW); the drivetrain then applies 88% efficiency. Peak horsepower is
+normalized analytically on the piecewise-linear torque curves, including peaks
+between RPM knots. More output shifts the torque distribution upward in RPM,
+but torque drops strongly near the 7,000 RPM limiter. All engines share that
+limiter; their best shift thresholds need not be the same.
+
+For h = horsepower minus 120:
+  price = 25h + 0.10h² dollars, rounded to $10;
+  added hardware mass = 0.15h + 0.002h² kg, rounded to 0.1 kg.
+Prices are incremental classroom package allowances (workshop labor supplied).
+The increasing price and mass represent supporting hardware, cooling and
+strengthening in this fictional family. They are not new retail quotations.
+The old price-anchor research remains in balance-report.txt. No new claims
+about a specific commercial engine or kit are made.
+
+Playtesting
+Run npm run analyze to regenerate engine-slider-results.json. The exhaustive
+sweep tries all 181 horsepower settings, all other catalog combinations, and
+nine shift thresholds from 5,000 to 7,000 RPM in 250 RPM increments. Over-budget
+builds are skipped. This is a clean-finish physics comparison; steering affects
+whether the player finishes, not the clean-run longitudinal timing.
+
+Final sweep: 195,201 eligible simulated races.
+
+120 hp: $5,650 total; engine $0, +0 kg; 20.481 s at 6,000 RPM shifts. {'tires': 'drag', 'weight': 'lightweight-package', 'aero': 'underbody-package', 'gearing': 'short', 'shifter': 'short-throw'}
+180 hp: $6,660 total; engine $1,860, +16.2 kg; 18.183 s at 6,250 RPM shifts. {'tires': 'drag', 'weight': 'lightweight-package', 'aero': 'underbody-package', 'gearing': 'standard', 'shifter': 'short-throw'}
+220 hp: $7,600 total; engine $3,500, +35 kg; 17.349 s at 6,250 RPM shifts. {'tires': 'drag', 'weight': 'lightweight-package', 'aero': 'undertray', 'gearing': 'standard', 'shifter': 'short-throw'}
+240 hp: $7,840 total; engine $4,440, +46.8 kg; 17.055 s at 6,500 RPM shifts. {'tires': 'drag', 'weight': 'battery', 'aero': 'undertray', 'gearing': 'tall', 'shifter': 'short-throw'}
+260 hp: $7,810 total; engine $5,460, +60.2 kg; 16.799 s at 6,500 RPM shifts. {'tires': 'drag', 'weight': 'stock', 'aero': 'stock', 'gearing': 'tall', 'shifter': 'short-throw'}
+269 hp: $7,850 total; engine $5,950, +66.8 kg; 16.741 s at 6,250 RPM shifts. {'tires': 'drag', 'weight': 'stock', 'aero': 'undertray', 'gearing': 'standard', 'shifter': 'short-throw'}
+279 hp: $8,000 total; engine $6,500, +74.4 kg; 16.626 s at 6,500 RPM shifts. {'tires': 'drag', 'weight': 'stock', 'aero': 'stock', 'gearing': 'standard', 'shifter': 'short-throw'}
+280 hp: $7,660 total; engine $6,560, +75.2 kg; 16.810 s at 6,500 RPM shifts. {'tires': 'drag', 'weight': 'stock', 'aero': 'stock', 'gearing': 'standard', 'shifter': 'standard'}
+300 hp: $7,740 total; engine $7,740, +91.8 kg; 18.054 s at 6,500 RPM shifts. {'tires': 'street', 'weight': 'stock', 'aero': 'stock', 'gearing': 'standard', 'shifter': 'standard'}
+
+The best sampled budget build uses 279 hp, drag tires and a short-throw shifter.
+It uses the full $8,000. The next horsepower increment crosses a package budget
+boundary: the buyer must sacrifice something else. The 300 hp engine costs
+$7,740 and adds 91.8 kg; it cannot afford a traction or shift upgrade. This is
+why maximum horsepower is not the fastest complete build. We do NOT claim
+that mass alone makes the stronger engine slower with identical equipment.
+
+A 269 hp engine with drag tires, short-throw shifter and undertray is within
+roughly 0.12 s of the best. A 260 hp build with tall gearing is within about
+0.18 s. Small optional parts remain smaller influences than power and grip;
+their physical effects were not inflated for balance.
+
+Shift and integration checks (same hardware, only shift threshold changes)
+120 hp: best 6000 RPM = 20.481 s; 7,000 RPM = 21.114 s; 0.005 s step = 20.477 s.
+180 hp: best 6250 RPM = 18.183 s; 7,000 RPM = 18.539 s; 0.005 s step = 18.178 s.
+220 hp: best 6250 RPM = 17.349 s; 7,000 RPM = 17.632 s; 0.005 s step = 17.346 s.
+250 hp: best 6500 RPM = 16.901 s; 7,000 RPM = 17.171 s; 0.005 s step = 16.897 s.
+260 hp: best 6500 RPM = 16.799 s; 7,000 RPM = 17.055 s; 0.005 s step = 16.795 s.
+279 hp: best 6500 RPM = 16.626 s; 7,000 RPM = 16.907 s; 0.005 s step = 16.621 s.
+280 hp: best 6500 RPM = 16.810 s; 7,000 RPM = 17.052 s; 0.005 s step = 16.806 s.
+300 hp: best 6500 RPM = 18.054 s; 7,000 RPM = 18.250 s; 0.005 s step = 18.044 s.
+
+The main step is 0.02 s; sampled finalists were rerun at 0.005 s. Differences
+are below 0.011 s. These checks establish numerical consistency, not real-car
+validation. The historical package study can still be reproduced with
+npm run analyze:legacy. Old notebook results remain labeled as an earlier
+engine model and do not set the new model's personal best. Active legacy
+engines migrate to their nearest horsepower setting; saved old runs keep their
+original engine IDs and times.

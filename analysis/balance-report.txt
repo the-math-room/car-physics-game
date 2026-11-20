@@ -1,0 +1,136 @@
+DRAG RACE: COST AND PERFORMANCE STUDY
+November 19, 2026
+
+Recommendation
+Use a 600 m closed course, an $8,000 parts allowance, and three official
+student attempts. The car, workshop labor, safety equipment and basic race
+preparation are supplied. Tax and shipping are outside the exercise. Allow
+full parts-budget resets between attempts; this is an educational concession,
+not a claim about real returns. Shift RPM is a free driver decision.
+
+Execution
+Run: node analysis/simulate.mjs
+No packages or network access required. The script regenerates results.json
+and builds.csv. It evaluates 648 hardware combinations at nine shift settings
+(5,832 runs per main sweep), plus marginal comparisons and sensitivity checks.
+initial-results.json preserves the first pricing/engine-curve trial. The final
+catalog is in ../dist/physics.mjs and results.json. Two main catalog sweeps were made.
+
+Prices (USD, rounded classroom allowances)
+Stock components: $0 incremental cost.
+Intake/exhaust/tune: $1,500.
+Responsive turbo package with supporting parts: $6,000.
+Top-end turbo package with additional fueling/tuning allowance: $7,500.
+Sport tire package: $750; drag-oriented tire package: $1,100.
+Lightweight battery: $650, assumed saving 10 kg.
+Lightweight component package: $2,200 total, assumed saving 35 kg.
+Undertray: $400, +4 kg, CdA 0.68 to 0.66 m2.
+Underbody package: $1,100 total, +9 kg, CdA 0.68 to 0.63 m2.
+Alternative final drive: $850 (standard 4.1; tall 3.6; short 4.6).
+Short-throw shifter: $400; assumed shift interruption 0.45 to 0.35 seconds.
+Selections within a category replace each other; prices are not cumulative.
+
+Retail anchors consulted
+These are price anchors across different applications, not a compatible parts
+list or vendor-supported performance predictions. Listings can change.
+
+Flyin' Miata Stage 1 turbo kit, 1996-97: $4,877.99 listed.
+https://flyinmiata.com/products/flyin-miata-stage-1-turbo-system-1996-97
+Our $6,000/$7,500 packages include estimated supporting-parts allowances. The
+larger package premium is a design estimate, not a quoted complete package.
+
+Tire Rack Falken RT660+ 205/50R15: about $700 for four tires.
+https://www.tirerack.com/tires/TireSearchResults.jsp?diameter=15&ratio=50&skipOver=true&width=205%2F&x=20&y=15
+Mickey Thompson 205/50R15: $234.98 each in a retailer listing.
+https://www.extremecustoms.com/product.php?item_id=431991
+Drag package allowance represents rear drag tires, front tires and mounting;
+the simulator holds tire radius fixed to isolate grip from gearing changes.
+
+Flyin' Miata Antigravity battery: $619.99 listed.
+https://flyinmiata.com/products/antigravity-battery-u1r-lithium-na-nb-4
+Verus ND catalog: underbody panels $299.95; rear diffuser $649.95.
+https://www.verus-engineering.com/shop/category/mazda-mx-5-miata-nd-7
+The modeled drag reductions are assumptions, not claims about those products.
+MFactory 2022 manufacturer price list: Miata 3.30 final drive $629.95.
+https://www.teammfactory.com/assets/downloads/pricelists/mfactory_pricelist_2022.pdf
+This is an older anchor, not a verified current quote. $850 allows for fitting
+consumables. Shifter, tune and lightweight-package prices are provisional
+category estimates rather than individually verified product quotations.
+
+Simulated findings
+Stock car, optimized single shift threshold: 21.02 s over 600 m.
+At $8,000, these two distinct engine strategies are close:
+  $7,900 responsive turbo, drag tires, undertray, short-throw: 18.16 s.
+    Standard final drive, 6,000 RPM shifts, 178.8 km/h finish speed.
+  $7,900 top-end turbo, stock tires, short-throw: 18.30 s.
+    Standard final drive, 7,000 RPM shifts, 189.6 km/h finish speed.
+The first reaches 100 m in 5.90 s; the second takes 6.64 s. The second catches
+up at high speed. Over 1,000 m the same builds, each with reoptimized shifts,
+run 25.71 and 25.35 s respectively. The winner reverses.
+Eight hardware builds are within 0.20 s of the best under the $8,000 cap;
+some differ only by small upgrades, so this is not eight distinct strategies.
+At $8,500 the top-end package can afford sport tires and takes a clear lead.
+At $10,000 there is less pressure to sacrifice traction for engine power.
+Recommend $8,000 for the initial lesson, not $10,000.
+
+Marginal economics
+Use incremental seconds saved / incremental dollars, holding other hardware
+fixed and reoptimizing the shift threshold in each comparison. The actual
+student investigation should hold RPM fixed when isolating a hardware change.
+Sport tires save 0.346 s on a stock-engine car, or 0.461 s per $1,000.
+The same tires save 0.701 s on the responsive turbo, or 0.935 s per $1,000.
+Changing sport tires to drag tires costs an extra $350: on the responsive
+turbo this saves another 0.271 s (0.774 s per $1,000). On the stock engine,
+drag tires are slightly slower than sport tires under the assumed rolling
+resistance values. Do not teach that as a universal property of drag tires.
+The $650 battery saves about 0.038 s with the stock engine; the $1,100 aero
+package saves about 0.022 s. Gains of this size should not decide a leaderboard
+without a finer time step and stronger empirical calibration.
+Power and grip are complements: more of one raises the value of the other.
+The final drive can help or hurt because wheel torque, shift count and engine
+RPM range change together. More expensive is not automatically faster.
+
+Important design conclusion
+Realistic aero and lightweight parts are poor value in this short race.
+Keep them as a small optional comparison or explain their low return; do not
+inflate their effects to make every shop item equally attractive. Free removal
+of ordinary loose cargo can be part of everyone's baseline. There is no need
+to invent a large cash charge for simply emptying a car.
+
+Shifting and the three attempts
+On the responsive finalist, 7,000 RPM shifts give 18.67 s; 6,000 RPM gives
+18.16 s. On the top-end finalist, 6,000 RPM gives 18.67 s; 7,000 gives 18.30 s.
+Thus a universally prescribed high shift point does not solve the challenge.
+Attempt 1: choose a build and record predicted limitations.
+Attempt 2: change one hardware item or the shift threshold; predict and explain.
+Attempt 3: revise freely using evidence. Full budget resets; no paid practice
+or preview finish-time calculator. Permit viewing torque/power graphs freely.
+The automated development sweep is for teacher calibration, not extra student
+attempts. The student interface and attempt counter have not been built here.
+
+Physics and validation
+Fictional 1,120 kg RWD coupe including driver and basic race equipment; engine
+additions are 30/38 kg. Torque tables at 1,000 RPM intervals determine power
+through P=torque*angular speed, rather than independent torque/power sliders.
+Wheel force uses gear ratio, final drive, 0.88 drivetrain efficiency and 0.29 m
+tire radius. Rear traction includes longitudinal load transfer (rear static
+load fraction 0.5, center-of-mass height / wheelbase 0.20). Drag is
+0.5*rho*CdA*v^2 with rho=1.225 kg/m3. Rolling resistance is Crr*m*g.
+Acceleration follows net force divided by mass. Finishing and split times use
+interpolation within a time step. Shifts interrupt drive and the rev limiter
+cuts drive above 7,000 RPM. Launch assumes an ideal clutch holding 3,000 RPM
+until coupling and ideal traction control: excess requested force is capped.
+Consequently traction-limited seconds are NOT seconds spent wheelspinning.
+Wheelspin, clutch heat, turbo transients, tire temperature, wind, rotational
+inertia and engine reliability are not modeled. Torque curves, friction and
+drag coefficients are illustrative, not measured vehicle calibration.
+The responsive torque curve was revised after the initial sweep to represent
+an engine with a stronger midrange and more pronounced high-RPM falloff. This
+and the larger-package price revision are design choices, not new measurements.
+
+Assertions check completion, torque interpolation, expected effects of reduced
+mass/drag, and time-step convergence. Finalists were rerun at 0.02, 0.01 and
+0.005 s steps; coarse-to-fine differences stay below 0.01 s. A 10% lower grip
+scenario and 402.336/1,000 m tracks are also recorded. Small marginal differences
+remain much less certain than the roughly half-second shift-timing effects.
+These are reproducible classroom-model predictions, not real drag-strip times.

@@ -1,0 +1,24 @@
+# Local dependencies and test output
+node_modules/
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.agents/
+.codex/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# dist/ contains the website source and must remain tracked.

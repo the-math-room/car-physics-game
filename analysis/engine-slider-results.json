@@ -1,0 +1,4250 @@
+{
+  "runs": 195201,
+  "budget": 8000,
+  "rows": [
+    {
+      "hp": 120,
+      "cost": 5650,
+      "engineCost": 0,
+      "addedMass": 0,
+      "rpm": 6000,
+      "time": 20.480701040861007,
+      "speed": 155.4396318192073,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0,
+      "splits": {
+        "100": 6.465728306632191,
+        "300": 12.932529256348905,
+        "600": 20.480701040861007
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 121,
+      "cost": 5680,
+      "engineCost": 30,
+      "addedMass": 0.2,
+      "rpm": 6000,
+      "time": 20.425344013129262,
+      "speed": 155.9116318696287,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0,
+      "splits": {
+        "100": 6.448606658160101,
+        "300": 12.898338016608692,
+        "600": 20.425344013129262
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 122,
+      "cost": 5700,
+      "engineCost": 50,
+      "addedMass": 0.3,
+      "rpm": 6000,
+      "time": 20.373823685713134,
+      "speed": 156.37304067091534,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0,
+      "splits": {
+        "100": 6.435646860141427,
+        "300": 12.867853129203638,
+        "600": 20.373823685713134
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 123,
+      "cost": 5730,
+      "engineCost": 80,
+      "addedMass": 0.5,
+      "rpm": 6000,
+      "time": 20.323254717482868,
+      "speed": 156.87552343778114,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0,
+      "splits": {
+        "100": 6.422427010269208,
+        "300": 12.837819099505833,
+        "600": 20.323254717482868
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 124,
+      "cost": 5750,
+      "engineCost": 100,
+      "addedMass": 0.6,
+      "rpm": 6000,
+      "time": 20.26893982776735,
+      "speed": 157.33971609969993,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0,
+      "splits": {
+        "100": 6.405525256072061,
+        "300": 12.80423609877972,
+        "600": 20.26893982776735
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 125,
+      "cost": 5780,
+      "engineCost": 130,
+      "addedMass": 0.8,
+      "rpm": 6000,
+      "time": 20.22017429302493,
+      "speed": 157.8339441091293,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.02,
+      "splits": {
+        "100": 6.393708407850075,
+        "300": 12.775718090524848,
+        "600": 20.22017429302493
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 126,
+      "cost": 5800,
+      "engineCost": 150,
+      "addedMass": 1,
+      "rpm": 6000,
+      "time": 20.167953668833395,
+      "speed": 158.27221283035178,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.08,
+      "splits": {
+        "100": 6.377747904317065,
+        "300": 12.743422271739144,
+        "600": 20.167953668833395
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 127,
+      "cost": 5830,
+      "engineCost": 180,
+      "addedMass": 1.1,
+      "rpm": 6000,
+      "time": 20.11986653813994,
+      "speed": 158.70039606694266,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.12000000000000001,
+      "splits": {
+        "100": 6.365739799976594,
+        "300": 12.715244077344693,
+        "600": 20.11986653813994
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 128,
+      "cost": 5860,
+      "engineCost": 210,
+      "addedMass": 1.3,
+      "rpm": 6000,
+      "time": 20.069895585034864,
+      "speed": 159.18992704262516,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.18,
+      "splits": {
+        "100": 6.35155810600072,
+        "300": 12.684902587335733,
+        "600": 20.069895585034864
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 129,
+      "cost": 5880,
+      "engineCost": 230,
+      "addedMass": 1.5,
+      "rpm": 6000,
+      "time": 20.024128685831887,
+      "speed": 159.65394281598907,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.21999999999999997,
+      "splits": {
+        "100": 6.340770090970882,
+        "300": 12.658271641066806,
+        "600": 20.024128685831887
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 130,
+      "cost": 5910,
+      "engineCost": 260,
+      "addedMass": 1.7,
+      "rpm": 6000,
+      "time": 19.97504511478101,
+      "speed": 160.06551955474075,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.25999999999999995,
+      "splits": {
+        "100": 6.326370839640469,
+        "300": 12.628336169315785,
+        "600": 19.97504511478101
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 131,
+      "cost": 5940,
+      "engineCost": 290,
+      "addedMass": 1.9,
+      "rpm": 6000,
+      "time": 19.92755091282906,
+      "speed": 160.54112263676456,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.3,
+      "splits": {
+        "100": 6.313429163710902,
+        "300": 12.599880442672655,
+        "600": 19.92755091282906
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 132,
+      "cost": 5960,
+      "engineCost": 310,
+      "addedMass": 2.1,
+      "rpm": 6000,
+      "time": 19.884435551625316,
+      "speed": 160.99341673667936,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.34,
+      "splits": {
+        "100": 6.3039683030971005,
+        "300": 12.5755088444998,
+        "600": 19.884435551625316
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 133,
+      "cost": 5990,
+      "engineCost": 340,
+      "addedMass": 2.3,
+      "rpm": 6000,
+      "time": 19.837547563347254,
+      "speed": 161.38919838955275,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.4000000000000001,
+      "splits": {
+        "100": 6.290745315644539,
+        "300": 12.54702139641031,
+        "600": 19.837547563347254
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 134,
+      "cost": 6020,
+      "engineCost": 370,
+      "addedMass": 2.5,
+      "rpm": 6000,
+      "time": 19.79159962617084,
+      "speed": 161.84483174495494,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.4400000000000001,
+      "splits": {
+        "100": 6.277918578913279,
+        "300": 12.519460547821959,
+        "600": 19.79159962617084
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 135,
+      "cost": 6050,
+      "engineCost": 400,
+      "addedMass": 2.7,
+      "rpm": 6000,
+      "time": 19.750815370977207,
+      "speed": 162.2741234202917,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.48000000000000015,
+      "splits": {
+        "100": 6.269780111010924,
+        "300": 12.49669122242523,
+        "600": 19.750815370977207
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 136,
+      "cost": 6080,
+      "engineCost": 430,
+      "addedMass": 2.9,
+      "rpm": 6000,
+      "time": 19.70628149763764,
+      "speed": 162.72146206447647,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5200000000000001,
+      "splits": {
+        "100": 6.257611870473199,
+        "300": 12.470169525663428,
+        "600": 19.70628149763764
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 137,
+      "cost": 6100,
+      "engineCost": 450,
+      "addedMass": 3.1,
+      "rpm": 6000,
+      "time": 19.662128676393067,
+      "speed": 163.1566069254081,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5400000000000001,
+      "splits": {
+        "100": 6.245705619480797,
+        "300": 12.443716818718462,
+        "600": 19.662128676393067
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 138,
+      "cost": 6130,
+      "engineCost": 480,
+      "addedMass": 3.3,
+      "rpm": 6250,
+      "time": 19.620596436249727,
+      "speed": 162.45124789026423,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5400000000000001,
+      "splits": {
+        "100": 6.210321739153792,
+        "300": 12.396400082825373,
+        "600": 19.620596436249727
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 139,
+      "cost": 6160,
+      "engineCost": 510,
+      "addedMass": 3.6,
+      "rpm": 6250,
+      "time": 19.578105227701858,
+      "speed": 162.84482411643455,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5600000000000002,
+      "splits": {
+        "100": 6.199292041373224,
+        "300": 12.371293215628569,
+        "600": 19.578105227701858
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 140,
+      "cost": 6190,
+      "engineCost": 540,
+      "addedMass": 3.8,
+      "rpm": 6250,
+      "time": 19.53519664661287,
+      "speed": 163.29563211718892,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6000000000000002,
+      "splits": {
+        "100": 6.1882666214711755,
+        "300": 12.346035493596608,
+        "600": 19.53519664661287
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 141,
+      "cost": 6220,
+      "engineCost": 570,
+      "addedMass": 4,
+      "rpm": 6250,
+      "time": 19.494573274000285,
+      "speed": 163.74121729261972,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6000000000000002,
+      "splits": {
+        "100": 6.179710133278437,
+        "300": 12.32309924467779,
+        "600": 19.494573274000285
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 142,
+      "cost": 6250,
+      "engineCost": 600,
+      "addedMass": 4.3,
+      "rpm": 6250,
+      "time": 19.455059597304157,
+      "speed": 164.17255280497716,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.4600000000000009,
+      "splits": {
+        "100": 6.170829060212135,
+        "300": 12.300488245925218,
+        "600": 19.455059597304157
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 143,
+      "cost": 6280,
+      "engineCost": 630,
+      "addedMass": 4.5,
+      "rpm": 6250,
+      "time": 19.4168806315917,
+      "speed": 164.6028054095223,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.4800000000000009,
+      "splits": {
+        "100": 6.163430908098136,
+        "300": 12.27930210628526,
+        "600": 19.4168806315917
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 144,
+      "cost": 6310,
+      "engineCost": 660,
+      "addedMass": 4.8,
+      "rpm": 6250,
+      "time": 19.37888763642644,
+      "speed": 165.0340218708055,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.4800000000000009,
+      "splits": {
+        "100": 6.156274801121435,
+        "300": 12.258506120819783,
+        "600": 19.37888763642644
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "short",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 145,
+      "cost": 5490,
+      "engineCost": 690,
+      "addedMass": 5,
+      "rpm": 6250,
+      "time": 19.339893484754676,
+      "speed": 165.81107070561217,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.02,
+      "splits": {
+        "100": 6.192144361471554,
+        "300": 12.27968691101326,
+        "600": 19.339893484754676
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 146,
+      "cost": 5520,
+      "engineCost": 720,
+      "addedMass": 5.3,
+      "rpm": 6250,
+      "time": 19.29891378287241,
+      "speed": 166.16921119799386,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.06,
+      "splits": {
+        "100": 6.182409168840124,
+        "300": 12.256089317775443,
+        "600": 19.29891378287241
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 147,
+      "cost": 5550,
+      "engineCost": 750,
+      "addedMass": 5.5,
+      "rpm": 6250,
+      "time": 19.256680843008578,
+      "speed": 166.51869116303132,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.12000000000000001,
+      "splits": {
+        "100": 6.169776170331583,
+        "300": 12.230293481698002,
+        "600": 19.256680843008578
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 148,
+      "cost": 5580,
+      "engineCost": 780,
+      "addedMass": 5.8,
+      "rpm": 6250,
+      "time": 19.2175874751451,
+      "speed": 166.50892870306603,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.18,
+      "splits": {
+        "100": 6.1607941792419245,
+        "300": 12.207615618380514,
+        "600": 19.2175874751451
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 149,
+      "cost": 5610,
+      "engineCost": 810,
+      "addedMass": 6,
+      "rpm": 6250,
+      "time": 19.17680768979108,
+      "speed": 166.03940363700522,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.23999999999999996,
+      "splits": {
+        "100": 6.148866701829465,
+        "300": 12.182896022720668,
+        "600": 19.17680768979108
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 150,
+      "cost": 5640,
+      "engineCost": 840,
+      "addedMass": 6.3,
+      "rpm": 6250,
+      "time": 19.14036063470364,
+      "speed": 165.59813727552944,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.3,
+      "splits": {
+        "100": 6.13997393527561,
+        "300": 12.161254870402313,
+        "600": 19.14036063470364
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 151,
+      "cost": 5670,
+      "engineCost": 870,
+      "addedMass": 6.6,
+      "rpm": 6250,
+      "time": 19.102513728270214,
+      "speed": 165.92422461163895,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.36000000000000004,
+      "splits": {
+        "100": 6.12966174807672,
+        "300": 12.137794770352727,
+        "600": 19.102513728270214
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 152,
+      "cost": 5700,
+      "engineCost": 900,
+      "addedMass": 6.8,
+      "rpm": 6250,
+      "time": 19.067381940485667,
+      "speed": 166.38330768228286,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.4200000000000001,
+      "splits": {
+        "100": 6.121426972251176,
+        "300": 12.116951314778877,
+        "600": 19.067381940485667
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 153,
+      "cost": 5730,
+      "engineCost": 930,
+      "addedMass": 7.1,
+      "rpm": 6250,
+      "time": 19.03066324899594,
+      "speed": 166.8412473798827,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.4200000000000001,
+      "splits": {
+        "100": 6.110989273582836,
+        "300": 12.094246182782577,
+        "600": 19.03066324899594
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 154,
+      "cost": 5770,
+      "engineCost": 970,
+      "addedMass": 7.4,
+      "rpm": 6250,
+      "time": 18.994189527238586,
+      "speed": 167.27428173645407,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.46000000000000013,
+      "splits": {
+        "100": 6.100824653820301,
+        "300": 12.0719280498305,
+        "600": 18.994189527238586
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 155,
+      "cost": 5800,
+      "engineCost": 1000,
+      "addedMass": 7.7,
+      "rpm": 6250,
+      "time": 18.961221659950176,
+      "speed": 167.79104364974776,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.48000000000000015,
+      "splits": {
+        "100": 6.093533213225855,
+        "300": 12.052411791690291,
+        "600": 18.961221659950176
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 156,
+      "cost": 5830,
+      "engineCost": 1030,
+      "addedMass": 8,
+      "rpm": 6250,
+      "time": 18.925346506669783,
+      "speed": 168.22031618974293,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5000000000000001,
+      "splits": {
+        "100": 6.08363554575016,
+        "300": 12.030558466302596,
+        "600": 18.925346506669783
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 157,
+      "cost": 5860,
+      "engineCost": 1060,
+      "addedMass": 8.3,
+      "rpm": 6250,
+      "time": 18.8897999761764,
+      "speed": 168.65015221227418,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5200000000000001,
+      "splits": {
+        "100": 6.074663882029814,
+        "300": 12.009156037059771,
+        "600": 18.8897999761764
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 158,
+      "cost": 5890,
+      "engineCost": 1090,
+      "addedMass": 8.6,
+      "rpm": 6250,
+      "time": 18.857821864077714,
+      "speed": 169.0608681893194,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5400000000000001,
+      "splits": {
+        "100": 6.068017067484272,
+        "300": 11.990623450053448,
+        "600": 18.857821864077714
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 159,
+      "cost": 5930,
+      "engineCost": 1130,
+      "addedMass": 8.9,
+      "rpm": 6250,
+      "time": 18.82293763460575,
+      "speed": 169.561604988239,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5600000000000002,
+      "splits": {
+        "100": 6.058594990525147,
+        "300": 11.969546564973315,
+        "600": 18.82293763460575
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 160,
+      "cost": 5960,
+      "engineCost": 1160,
+      "addedMass": 9.2,
+      "rpm": 6250,
+      "time": 18.788248206550982,
+      "speed": 169.96128333212644,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.5600000000000002,
+      "splits": {
+        "100": 6.049314747838454,
+        "300": 11.948720467667178,
+        "600": 18.788248206550982
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 161,
+      "cost": 5990,
+      "engineCost": 1190,
+      "addedMass": 9.5,
+      "rpm": 6250,
+      "time": 18.757339782611446,
+      "speed": 170.36535921620592,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6000000000000002,
+      "splits": {
+        "100": 6.043231366178167,
+        "300": 11.931061684052999,
+        "600": 18.757339782611446
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 162,
+      "cost": 6030,
+      "engineCost": 1230,
+      "addedMass": 9.8,
+      "rpm": 6250,
+      "time": 18.723304662525692,
+      "speed": 170.83943863802386,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6200000000000002,
+      "splits": {
+        "100": 6.034252189667131,
+        "300": 11.910728980773852,
+        "600": 18.723304662525692
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 163,
+      "cost": 6060,
+      "engineCost": 1260,
+      "addedMass": 10.1,
+      "rpm": 6250,
+      "time": 18.69005384321712,
+      "speed": 171.2467510081313,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6200000000000002,
+      "splits": {
+        "100": 6.025448893285411,
+        "300": 11.89054652770262,
+        "600": 18.69005384321712
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 164,
+      "cost": 6090,
+      "engineCost": 1290,
+      "addedMass": 10.5,
+      "rpm": 6250,
+      "time": 18.657157479334685,
+      "speed": 171.63385588473352,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6400000000000002,
+      "splits": {
+        "100": 6.016957440797393,
+        "300": 11.871050921852424,
+        "600": 18.657157479334685
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 165,
+      "cost": 6130,
+      "engineCost": 1330,
+      "addedMass": 10.8,
+      "rpm": 6250,
+      "time": 18.627510520648965,
+      "speed": 172.08731784454335,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6600000000000003,
+      "splits": {
+        "100": 6.011559065811723,
+        "300": 11.854487711452817,
+        "600": 18.627510520648965
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 166,
+      "cost": 6160,
+      "engineCost": 1360,
+      "addedMass": 11.1,
+      "rpm": 6250,
+      "time": 18.595027965022872,
+      "speed": 172.468037647316,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6800000000000003,
+      "splits": {
+        "100": 6.003132911038366,
+        "300": 11.834961810162174,
+        "600": 18.595027965022872
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 167,
+      "cost": 6200,
+      "engineCost": 1400,
+      "addedMass": 11.5,
+      "rpm": 6250,
+      "time": 18.562986912693688,
+      "speed": 172.90830455288693,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.6800000000000003,
+      "splits": {
+        "100": 5.995039539771348,
+        "300": 11.816153451686617,
+        "600": 18.562986912693688
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 168,
+      "cost": 6230,
+      "engineCost": 1430,
+      "addedMass": 11.8,
+      "rpm": 6250,
+      "time": 18.531084756048333,
+      "speed": 173.28532451256467,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7000000000000003,
+      "splits": {
+        "100": 5.986860417906672,
+        "300": 11.797061308060497,
+        "600": 18.531084756048333
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 169,
+      "cost": 6270,
+      "engineCost": 1470,
+      "addedMass": 12.2,
+      "rpm": 6250,
+      "time": 18.503074192032223,
+      "speed": 173.72473697059786,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7200000000000003,
+      "splits": {
+        "100": 5.981513588982036,
+        "300": 11.781545687887563,
+        "600": 18.503074192032223
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 170,
+      "cost": 6300,
+      "engineCost": 1500,
+      "addedMass": 12.5,
+      "rpm": 6250,
+      "time": 18.471670566073957,
+      "speed": 174.07802682739467,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7400000000000003,
+      "splits": {
+        "100": 5.973569553241516,
+        "300": 11.762861526193403,
+        "600": 18.471670566073957
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 171,
+      "cost": 6340,
+      "engineCost": 1540,
+      "addedMass": 12.9,
+      "rpm": 6250,
+      "time": 18.44108190961827,
+      "speed": 174.50499738639198,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7400000000000003,
+      "splits": {
+        "100": 5.965979376897221,
+        "300": 11.744772294033943,
+        "600": 18.44108190961827
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 172,
+      "cost": 6370,
+      "engineCost": 1570,
+      "addedMass": 13.2,
+      "rpm": 6250,
+      "time": 18.410025346519735,
+      "speed": 174.8809258229619,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7600000000000003,
+      "splits": {
+        "100": 5.958274629046966,
+        "300": 11.726650679612396,
+        "600": 18.410025346519735
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 173,
+      "cost": 6410,
+      "engineCost": 1610,
+      "addedMass": 13.6,
+      "rpm": 6250,
+      "time": 18.383621061354773,
+      "speed": 175.29412412139527,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7800000000000004,
+      "splits": {
+        "100": 5.954475828174726,
+        "300": 11.712637748352245,
+        "600": 18.383621061354773
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 174,
+      "cost": 6440,
+      "engineCost": 1640,
+      "addedMass": 13.9,
+      "rpm": 6250,
+      "time": 18.353309917093842,
+      "speed": 175.64015573639435,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.7800000000000004,
+      "splits": {
+        "100": 5.946971263659724,
+        "300": 11.694744086592088,
+        "600": 18.353309917093842
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 175,
+      "cost": 6480,
+      "engineCost": 1680,
+      "addedMass": 14.3,
+      "rpm": 6250,
+      "time": 18.323414182617856,
+      "speed": 176.05960893835626,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8000000000000004,
+      "splits": {
+        "100": 5.938887825684387,
+        "300": 11.676907227388417,
+        "600": 18.323414182617856
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 176,
+      "cost": 6510,
+      "engineCost": 1710,
+      "addedMass": 14.7,
+      "rpm": 6250,
+      "time": 18.294181031304596,
+      "speed": 176.39687712261815,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8200000000000004,
+      "splits": {
+        "100": 5.931851454859129,
+        "300": 11.659807377438291,
+        "600": 18.294181031304596
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 177,
+      "cost": 6550,
+      "engineCost": 1750,
+      "addedMass": 15,
+      "rpm": 6250,
+      "time": 18.264780617467157,
+      "speed": 176.81831868288492,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8200000000000004,
+      "splits": {
+        "100": 5.924749945871574,
+        "300": 11.642590659742568,
+        "600": 18.264780617467157
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 178,
+      "cost": 6590,
+      "engineCost": 1790,
+      "addedMass": 15.4,
+      "rpm": 6250,
+      "time": 18.236186759146747,
+      "speed": 177.15069557478773,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8400000000000004,
+      "splits": {
+        "100": 5.917981873974658,
+        "300": 11.625957795566478,
+        "600": 18.236186759146747
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 179,
+      "cost": 6620,
+      "engineCost": 1820,
+      "addedMass": 15.8,
+      "rpm": 6250,
+      "time": 18.211456956203882,
+      "speed": 177.52573857714245,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8600000000000004,
+      "splits": {
+        "100": 5.914106425222771,
+        "300": 11.612638772024766,
+        "600": 18.211456956203882
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 180,
+      "cost": 6660,
+      "engineCost": 1860,
+      "addedMass": 16.2,
+      "rpm": 6250,
+      "time": 18.183359050954834,
+      "speed": 177.93629734783218,
+      "shifts": 4,
+      "tractionLimitedSeconds": 0.8800000000000004,
+      "splits": {
+        "100": 5.907503773417125,
+        "300": 11.596345697594092,
+        "600": 18.183359050954834
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 181,
+      "cost": 6700,
+      "engineCost": 1900,
+      "addedMass": 16.6,
+      "rpm": 6250,
+      "time": 18.15718413530131,
+      "speed": 178.23839928700377,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8200000000000012,
+      "splits": {
+        "100": 5.902583471516231,
+        "300": 11.581884578742773,
+        "600": 18.15718413530131
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 182,
+      "cost": 6730,
+      "engineCost": 1930,
+      "addedMass": 17,
+      "rpm": 6250,
+      "time": 18.131805928083978,
+      "speed": 178.63604179201653,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8400000000000012,
+      "splits": {
+        "100": 5.897806918393437,
+        "300": 11.568043008669356,
+        "600": 18.131805928083978
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 183,
+      "cost": 6770,
+      "engineCost": 1970,
+      "addedMass": 17.4,
+      "rpm": 6250,
+      "time": 18.107371029709476,
+      "speed": 179.00771384386348,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8400000000000012,
+      "splits": {
+        "100": 5.894089462870396,
+        "300": 11.554822332141079,
+        "600": 18.107371029709476
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 184,
+      "cost": 6810,
+      "engineCost": 2010,
+      "addedMass": 17.8,
+      "rpm": 6250,
+      "time": 18.08299103045024,
+      "speed": 179.3835357932002,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8400000000000012,
+      "splits": {
+        "100": 5.890414700711592,
+        "300": 11.541916171282578,
+        "600": 18.08299103045024
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 185,
+      "cost": 6850,
+      "engineCost": 2050,
+      "addedMass": 18.2,
+      "rpm": 6250,
+      "time": 18.058345334092287,
+      "speed": 179.67336376790516,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8600000000000012,
+      "splits": {
+        "100": 5.885850005080882,
+        "300": 11.528533130603785,
+        "600": 18.058345334092287
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 186,
+      "cost": 6890,
+      "engineCost": 2090,
+      "addedMass": 18.6,
+      "rpm": 6250,
+      "time": 18.034613130504653,
+      "speed": 180.03933177211533,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8600000000000012,
+      "splits": {
+        "100": 5.882344960507895,
+        "300": 11.515778457158662,
+        "600": 18.034613130504653
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 187,
+      "cost": 6920,
+      "engineCost": 2120,
+      "addedMass": 19,
+      "rpm": 6250,
+      "time": 18.010391063268504,
+      "speed": 180.40921502289027,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8600000000000012,
+      "splits": {
+        "100": 5.87788697985386,
+        "300": 11.502664092332997,
+        "600": 18.010391063268504
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 188,
+      "cost": 6960,
+      "engineCost": 2160,
+      "addedMass": 19.4,
+      "rpm": 6250,
+      "time": 17.987128891999948,
+      "speed": 180.7714660559262,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8800000000000012,
+      "splits": {
+        "100": 5.874527300593235,
+        "300": 11.49022484505995,
+        "600": 17.987128891999948
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 189,
+      "cost": 7000,
+      "engineCost": 2200,
+      "addedMass": 19.9,
+      "rpm": 6250,
+      "time": 17.96372453288444,
+      "speed": 181.1328233599151,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.8800000000000012,
+      "splits": {
+        "100": 5.870285602746139,
+        "300": 11.47763703798409,
+        "600": 17.96372453288444
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 190,
+      "cost": 7040,
+      "engineCost": 2240,
+      "addedMass": 20.3,
+      "rpm": 6250,
+      "time": 17.940869991919723,
+      "speed": 181.49147393109658,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.867033265821875,
+        "300": 11.465457992457859,
+        "600": 17.940869991919723
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 191,
+      "cost": 7080,
+      "engineCost": 2280,
+      "addedMass": 20.7,
+      "rpm": 6250,
+      "time": 17.91828090356724,
+      "speed": 181.7502884579182,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.863893400672706,
+        "300": 11.4537115370036,
+        "600": 17.91828090356724
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 192,
+      "cost": 7120,
+      "engineCost": 2320,
+      "addedMass": 21.2,
+      "rpm": 6250,
+      "time": 17.895565836027668,
+      "speed": 182.10072407325796,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.8598167226633215,
+        "300": 11.441283804117791,
+        "600": 17.895565836027668
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 193,
+      "cost": 7160,
+      "engineCost": 2360,
+      "addedMass": 21.6,
+      "rpm": 6250,
+      "time": 17.873276721059646,
+      "speed": 182.4588589759159,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.856733151465582,
+        "300": 11.429749164372168,
+        "600": 17.873276721059646
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 194,
+      "cost": 7200,
+      "engineCost": 2400,
+      "addedMass": 22.1,
+      "rpm": 6250,
+      "time": 17.850944913387075,
+      "speed": 182.78857815606906,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.852698079907147,
+        "300": 11.417496611322363,
+        "600": 17.850944913387075
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 195,
+      "cost": 7240,
+      "engineCost": 2440,
+      "addedMass": 22.5,
+      "rpm": 6250,
+      "time": 17.828309374740304,
+      "speed": 183.14397800788072,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9000000000000012,
+      "splits": {
+        "100": 5.8486197771841795,
+        "300": 11.405365121740571,
+        "600": 17.828309374740304
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 196,
+      "cost": 7280,
+      "engineCost": 2480,
+      "addedMass": 23,
+      "rpm": 6250,
+      "time": 17.807093559365306,
+      "speed": 183.4694492592708,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.845763872253563,
+        "300": 11.39418481532473,
+        "600": 17.807093559365306
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 197,
+      "cost": 7320,
+      "engineCost": 2520,
+      "addedMass": 23.4,
+      "rpm": 6250,
+      "time": 17.785008476076335,
+      "speed": 183.79891207352503,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.841821601687458,
+        "300": 11.382095827159159,
+        "600": 17.785008476076335
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 198,
+      "cost": 7360,
+      "engineCost": 2560,
+      "addedMass": 23.9,
+      "rpm": 6250,
+      "time": 17.76405408357136,
+      "speed": 184.14303274495353,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.83905647011438,
+        "300": 11.371395708533502,
+        "600": 17.76405408357136
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 199,
+      "cost": 7400,
+      "engineCost": 2600,
+      "addedMass": 24.3,
+      "rpm": 6250,
+      "time": 17.74226694404354,
+      "speed": 184.4695070979478,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.835152106472508,
+        "300": 11.359472167654909,
+        "600": 17.74226694404354
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 200,
+      "cost": 7440,
+      "engineCost": 2640,
+      "addedMass": 24.8,
+      "rpm": 6250,
+      "time": 17.721781131197076,
+      "speed": 184.78820421815547,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.83245764600647,
+        "300": 11.348737410546791,
+        "600": 17.721781131197076
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 201,
+      "cost": 7480,
+      "engineCost": 2680,
+      "addedMass": 25.3,
+      "rpm": 6250,
+      "time": 17.700644520681422,
+      "speed": 185.1113156806341,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9200000000000013,
+      "splits": {
+        "100": 5.8286797371845465,
+        "300": 11.337465004104411,
+        "600": 17.700644520681422
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 202,
+      "cost": 7520,
+      "engineCost": 2720,
+      "addedMass": 25.7,
+      "rpm": 6250,
+      "time": 17.68016935207975,
+      "speed": 185.43158065469092,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9400000000000013,
+      "splits": {
+        "100": 5.825991203989855,
+        "300": 11.326735931527455,
+        "600": 17.68016935207975
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 203,
+      "cost": 7560,
+      "engineCost": 2760,
+      "addedMass": 26.2,
+      "rpm": 6250,
+      "time": 17.659319975181237,
+      "speed": 185.67489823615608,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9400000000000013,
+      "splits": {
+        "100": 5.82233393476542,
+        "300": 11.315442223637637,
+        "600": 17.659319975181237
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "underbody-package",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 204,
+      "cost": 7760,
+      "engineCost": 2810,
+      "addedMass": 26.7,
+      "rpm": 6250,
+      "time": 17.63691505997173,
+      "speed": 186.5881158191087,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.8600000000000004,
+      "splits": {
+        "100": 5.827736123832564,
+        "300": 11.316388004931063,
+        "600": 17.63691505997173
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 205,
+      "cost": 7800,
+      "engineCost": 2850,
+      "addedMass": 27.2,
+      "rpm": 6250,
+      "time": 17.61836984350794,
+      "speed": 186.85144244202843,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.8800000000000004,
+      "splits": {
+        "100": 5.8258946473961375,
+        "300": 11.307471323469272,
+        "600": 17.61836984350794
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 206,
+      "cost": 7440,
+      "engineCost": 2890,
+      "addedMass": 27.7,
+      "rpm": 6250,
+      "time": 17.59562799007736,
+      "speed": 186.81600575680184,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9000000000000005,
+      "splits": {
+        "100": 5.8141216561445255,
+        "300": 11.287517463485875,
+        "600": 17.59562799007736
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 207,
+      "cost": 7880,
+      "engineCost": 2930,
+      "addedMass": 28.2,
+      "rpm": 6500,
+      "time": 17.572656361350685,
+      "speed": 186.86541996336143,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9000000000000005,
+      "splits": {
+        "100": 5.782736156049345,
+        "300": 11.247028169121364,
+        "600": 17.572656361350685
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 208,
+      "cost": 7920,
+      "engineCost": 2970,
+      "addedMass": 28.7,
+      "rpm": 6500,
+      "time": 17.550320362687074,
+      "speed": 187.14992346118302,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9000000000000005,
+      "splits": {
+        "100": 5.778053864927001,
+        "300": 11.23493351434883,
+        "600": 17.550320362687074
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 209,
+      "cost": 7970,
+      "engineCost": 3020,
+      "addedMass": 29.2,
+      "rpm": 6250,
+      "time": 17.529444826090735,
+      "speed": 187.96424486599238,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9400000000000005,
+      "splits": {
+        "100": 5.8054436477356655,
+        "300": 11.25814899594622,
+        "600": 17.529444826090735
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 210,
+      "cost": 7610,
+      "engineCost": 3060,
+      "addedMass": 29.7,
+      "rpm": 6500,
+      "time": 17.509334124099766,
+      "speed": 187.3785023829971,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9400000000000005,
+      "splits": {
+        "100": 5.764855516408975,
+        "300": 11.206781988405886,
+        "600": 17.509334124099766
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 211,
+      "cost": 7650,
+      "engineCost": 3100,
+      "addedMass": 30.2,
+      "rpm": 6500,
+      "time": 17.487602883230366,
+      "speed": 187.65464943276044,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9600000000000005,
+      "splits": {
+        "100": 5.760450701022117,
+        "300": 11.195124426240188,
+        "600": 17.487602883230366
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 212,
+      "cost": 7700,
+      "engineCost": 3150,
+      "addedMass": 30.7,
+      "rpm": 6500,
+      "time": 17.466723724912796,
+      "speed": 187.92027071748822,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9800000000000005,
+      "splits": {
+        "100": 5.755302939645754,
+        "300": 11.183928805291398,
+        "600": 17.466723724912796
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 213,
+      "cost": 7740,
+      "engineCost": 3190,
+      "addedMass": 31.2,
+      "rpm": 6500,
+      "time": 17.445360208864905,
+      "speed": 188.19061150450761,
+      "shifts": 3,
+      "tractionLimitedSeconds": 0.9800000000000005,
+      "splits": {
+        "100": 5.751047348287767,
+        "300": 11.172511488164266,
+        "600": 17.445360208864905
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 214,
+      "cost": 7780,
+      "engineCost": 3230,
+      "addedMass": 31.8,
+      "rpm": 6500,
+      "time": 17.426252348235735,
+      "speed": 188.45002810398063,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0000000000000004,
+      "splits": {
+        "100": 5.749091401062748,
+        "300": 11.16334277349,
+        "600": 17.426252348235735
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 215,
+      "cost": 7830,
+      "engineCost": 3280,
+      "addedMass": 32.3,
+      "rpm": 6500,
+      "time": 17.40585947154483,
+      "speed": 188.7073344471296,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0000000000000004,
+      "splits": {
+        "100": 5.744131732052324,
+        "300": 11.152440459233542,
+        "600": 17.40585947154483
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 216,
+      "cost": 7870,
+      "engineCost": 3320,
+      "addedMass": 32.8,
+      "rpm": 6500,
+      "time": 17.384968704404237,
+      "speed": 188.9694143298315,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0000000000000004,
+      "splits": {
+        "100": 5.7400390824137375,
+        "300": 11.141305187776297,
+        "600": 17.384968704404237
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 217,
+      "cost": 7920,
+      "engineCost": 3370,
+      "addedMass": 33.4,
+      "rpm": 6500,
+      "time": 17.364643053071866,
+      "speed": 189.22426447179058,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0000000000000004,
+      "splits": {
+        "100": 5.736157530001452,
+        "300": 11.130553538866346,
+        "600": 17.364643053071866
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 218,
+      "cost": 7960,
+      "engineCost": 3410,
+      "addedMass": 33.9,
+      "rpm": 6500,
+      "time": 17.344704310795297,
+      "speed": 189.47352031051972,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0200000000000005,
+      "splits": {
+        "100": 5.731335587273681,
+        "300": 11.11991454348369,
+        "600": 17.344704310795297
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 219,
+      "cost": 7560,
+      "engineCost": 3460,
+      "addedMass": 34.5,
+      "rpm": 6250,
+      "time": 17.367148793776554,
+      "speed": 189.93341620744553,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.774658267368595,
+        "300": 11.154359131447146,
+        "600": 17.367148793776554
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 220,
+      "cost": 7600,
+      "engineCost": 3500,
+      "addedMass": 35,
+      "rpm": 6250,
+      "time": 17.348955048622823,
+      "speed": 190.2053823038577,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.771492473902911,
+        "300": 11.144514086623431,
+        "600": 17.348955048622823
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 221,
+      "cost": 7650,
+      "engineCost": 3550,
+      "addedMass": 35.6,
+      "rpm": 6250,
+      "time": 17.331122807562014,
+      "speed": 190.48641732523973,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.768419560799609,
+        "300": 11.134954067094762,
+        "600": 17.331122807562014
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 222,
+      "cost": 7690,
+      "engineCost": 3590,
+      "addedMass": 36.1,
+      "rpm": 6250,
+      "time": 17.31443426768273,
+      "speed": 190.7513519067582,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.766639528857117,
+        "300": 11.126547107445782,
+        "600": 17.31443426768273
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 223,
+      "cost": 7740,
+      "engineCost": 3640,
+      "addedMass": 36.7,
+      "rpm": 6250,
+      "time": 17.296839815629284,
+      "speed": 191.02932773961246,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.763602433110484,
+        "300": 11.117117805840401,
+        "600": 17.296839815629284
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 224,
+      "cost": 7780,
+      "engineCost": 3680,
+      "addedMass": 37.2,
+      "rpm": 6250,
+      "time": 17.279132528915852,
+      "speed": 191.29552235722142,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.760511001447585,
+        "300": 11.107540303074664,
+        "600": 17.279132528915852
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 225,
+      "cost": 7830,
+      "engineCost": 3730,
+      "addedMass": 37.8,
+      "rpm": 6250,
+      "time": 17.26191737677323,
+      "speed": 191.64755570487833,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.757518243283215,
+        "300": 11.098270575488128,
+        "600": 17.26191737677323
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 226,
+      "cost": 7870,
+      "engineCost": 3770,
+      "addedMass": 38.4,
+      "rpm": 6250,
+      "time": 17.24608683196522,
+      "speed": 191.90141164469392,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.755901778758061,
+        "300": 11.090372569043314,
+        "600": 17.24608683196522
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 227,
+      "cost": 7920,
+      "engineCost": 3820,
+      "addedMass": 38.9,
+      "rpm": 6250,
+      "time": 17.2286439543854,
+      "speed": 192.17876734953722,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.752864364992781,
+        "300": 11.08101115792749,
+        "600": 17.2286439543854
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 228,
+      "cost": 7970,
+      "engineCost": 3870,
+      "addedMass": 39.5,
+      "rpm": 6250,
+      "time": 17.211769486638936,
+      "speed": 192.43399213890027,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.749917621220091,
+        "300": 11.071921708527587,
+        "600": 17.211769486638936
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 229,
+      "cost": 7610,
+      "engineCost": 3910,
+      "addedMass": 40.1,
+      "rpm": 6250,
+      "time": 17.201056610627205,
+      "speed": 192.38743231351668,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.746643439120322,
+        "300": 11.062002009195373,
+        "600": 17.201056610627205
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 230,
+      "cost": 7660,
+      "engineCost": 3960,
+      "addedMass": 40.7,
+      "rpm": 6250,
+      "time": 17.18439504607975,
+      "speed": 192.63991733498415,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.743730508081369,
+        "300": 11.053035435215856,
+        "600": 17.18439504607975
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 231,
+      "cost": 7710,
+      "engineCost": 4010,
+      "addedMass": 41.3,
+      "rpm": 6250,
+      "time": 17.168987076425605,
+      "speed": 192.88352850512163,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.742258717471965,
+        "300": 11.04512514810381,
+        "600": 17.168987076425605
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 232,
+      "cost": 7750,
+      "engineCost": 4050,
+      "addedMass": 41.9,
+      "rpm": 6250,
+      "time": 17.15241350315307,
+      "speed": 193.14843176444714,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.739372194608227,
+        "300": 11.036263971574959,
+        "600": 17.15241350315307
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 233,
+      "cost": 7800,
+      "engineCost": 4100,
+      "addedMass": 42.5,
+      "rpm": 6250,
+      "time": 17.136096268788947,
+      "speed": 193.39653391669887,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.736510780901646,
+        "300": 11.02749230559215,
+        "600": 17.136096268788947
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 234,
+      "cost": 7850,
+      "engineCost": 4150,
+      "addedMass": 43.1,
+      "rpm": 6250,
+      "time": 17.11988499083625,
+      "speed": 193.64324151158152,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.73366569377778,
+        "300": 11.018780760760592,
+        "600": 17.11988499083625
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 235,
+      "cost": 7900,
+      "engineCost": 4200,
+      "addedMass": 43.7,
+      "rpm": 6250,
+      "time": 17.1052153016789,
+      "speed": 193.97740534078116,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.732289396566351,
+        "300": 11.011586344313168,
+        "600": 17.1052153016789
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 236,
+      "cost": 7950,
+      "engineCost": 4250,
+      "addedMass": 44.3,
+      "rpm": 6250,
+      "time": 17.08920893805431,
+      "speed": 194.22154647531633,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.729467253575883,
+        "300": 11.002981772881128,
+        "600": 17.08920893805431
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 237,
+      "cost": 7990,
+      "engineCost": 4290,
+      "addedMass": 44.9,
+      "rpm": 6250,
+      "time": 17.073335473676345,
+      "speed": 194.46409500297352,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.726672130137091,
+        "300": 10.994457196273427,
+        "600": 17.073335473676345
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "lightweight-package",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 238,
+      "cost": 7740,
+      "engineCost": 4340,
+      "addedMass": 45.5,
+      "rpm": 6500,
+      "time": 17.087876063942797,
+      "speed": 193.4107864334344,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0600000000000005,
+      "splits": {
+        "100": 5.703192242916624,
+        "300": 11.001681213659396,
+        "600": 17.087876063942797
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 239,
+      "cost": 7790,
+      "engineCost": 4390,
+      "addedMass": 46.2,
+      "rpm": 6500,
+      "time": 17.071314259466938,
+      "speed": 193.60661378948728,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0600000000000005,
+      "splits": {
+        "100": 5.6994893039635794,
+        "300": 10.993031217741446,
+        "600": 17.071314259466938
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 240,
+      "cost": 7840,
+      "engineCost": 4440,
+      "addedMass": 46.8,
+      "rpm": 6500,
+      "time": 17.054775048911367,
+      "speed": 193.7945235481291,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0800000000000005,
+      "splits": {
+        "100": 5.696473249964516,
+        "300": 10.983866631411617,
+        "600": 17.054775048911367
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 241,
+      "cost": 7490,
+      "engineCost": 4490,
+      "addedMass": 47.4,
+      "rpm": 6500,
+      "time": 17.038782094784818,
+      "speed": 193.69366303582171,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0800000000000005,
+      "splits": {
+        "100": 5.688026169396865,
+        "300": 10.969360256849539,
+        "600": 17.038782094784818
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 242,
+      "cost": 7940,
+      "engineCost": 4540,
+      "addedMass": 48.1,
+      "rpm": 6500,
+      "time": 17.022210041029215,
+      "speed": 194.2409502894984,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0800000000000005,
+      "splits": {
+        "100": 5.689945803475338,
+        "300": 10.966380992230876,
+        "600": 17.022210041029215
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 243,
+      "cost": 7590,
+      "engineCost": 4590,
+      "addedMass": 48.7,
+      "rpm": 6500,
+      "time": 17.00642870290398,
+      "speed": 194.1364149826976,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.0800000000000005,
+      "splits": {
+        "100": 5.6815853100512586,
+        "300": 10.952024286919302,
+        "600": 17.00642870290398
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 244,
+      "cost": 7640,
+      "engineCost": 4640,
+      "addedMass": 49.4,
+      "rpm": 6500,
+      "time": 16.993685966719887,
+      "speed": 194.30077995955088,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1000000000000005,
+      "splits": {
+        "100": 5.680823276977899,
+        "300": 10.946234473436212,
+        "600": 16.993685966719887
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 245,
+      "cost": 7690,
+      "engineCost": 4690,
+      "addedMass": 50,
+      "rpm": 6500,
+      "time": 16.977793986038524,
+      "speed": 194.47955444278284,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.6780453939394,
+        "300": 10.937492186043196,
+        "600": 16.977793986038524
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 246,
+      "cost": 7740,
+      "engineCost": 4740,
+      "addedMass": 50.7,
+      "rpm": 6500,
+      "time": 16.962812830349712,
+      "speed": 194.7159400827056,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.674637626626239,
+        "300": 10.929221237527406,
+        "600": 16.962812830349712
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 247,
+      "cost": 7790,
+      "engineCost": 4790,
+      "addedMass": 51.3,
+      "rpm": 6500,
+      "time": 16.946454633752857,
+      "speed": 194.90626976831655,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.67193810311633,
+        "300": 10.920769443192475,
+        "600": 16.946454633752857
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 248,
+      "cost": 7840,
+      "engineCost": 4840,
+      "addedMass": 52,
+      "rpm": 6500,
+      "time": 16.931673654510394,
+      "speed": 195.06994571347215,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.668586912660289,
+        "300": 10.912605559019338,
+        "600": 16.931673654510394
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 249,
+      "cost": 7890,
+      "engineCost": 4890,
+      "addedMass": 52.6,
+      "rpm": 6500,
+      "time": 16.916270190243157,
+      "speed": 195.24130007986273,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.6659496337868696,
+        "300": 10.904155319610073,
+        "600": 16.916270190243157
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 250,
+      "cost": 7940,
+      "engineCost": 4940,
+      "addedMass": 53.3,
+      "rpm": 6500,
+      "time": 16.900997733690836,
+      "speed": 195.48510822276128,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.662666140416503,
+        "300": 10.89624644657207,
+        "600": 16.900997733690836
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 251,
+      "cost": 7990,
+      "engineCost": 4990,
+      "addedMass": 54,
+      "rpm": 6500,
+      "time": 16.886219415995065,
+      "speed": 195.6488404487035,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1400000000000006,
+      "splits": {
+        "100": 5.66027650616053,
+        "300": 10.888222163802027,
+        "600": 16.886219415995065
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 252,
+      "cost": 7790,
+      "engineCost": 5040,
+      "addedMass": 54.6,
+      "rpm": 6500,
+      "time": 16.908917016053454,
+      "speed": 195.79288700255884,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1000000000000005,
+      "splits": {
+        "100": 5.673905852526419,
+        "300": 10.910134908471406,
+        "600": 16.908917016053454
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 253,
+      "cost": 7840,
+      "engineCost": 5090,
+      "addedMass": 55.3,
+      "rpm": 6500,
+      "time": 16.89729575667106,
+      "speed": 195.94134285995725,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1000000000000005,
+      "splits": {
+        "100": 5.673551058906415,
+        "300": 10.905051892421909,
+        "600": 16.89729575667106
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 254,
+      "cost": 7900,
+      "engineCost": 5150,
+      "addedMass": 56,
+      "rpm": 6500,
+      "time": 16.882708593471584,
+      "speed": 196.17015771554284,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.671153268785155,
+        "300": 10.897096364691919,
+        "600": 16.882708593471584
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 255,
+      "cost": 7550,
+      "engineCost": 5200,
+      "addedMass": 56.7,
+      "rpm": 6500,
+      "time": 16.86841928660291,
+      "speed": 196.0477709536551,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.6634433904429375,
+        "300": 10.883843352808062,
+        "600": 16.86841928660291
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 256,
+      "cost": 8000,
+      "engineCost": 5250,
+      "addedMass": 57.4,
+      "rpm": 6500,
+      "time": 16.854260638645886,
+      "speed": 196.47873133710786,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.665662029051329,
+        "300": 10.881503330181934,
+        "600": 16.854260638645886
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 257,
+      "cost": 7650,
+      "engineCost": 5300,
+      "addedMass": 58.1,
+      "rpm": 6500,
+      "time": 16.840185065059575,
+      "speed": 196.42204463855566,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.658037732271044,
+        "300": 10.86840726855195,
+        "600": 16.840185065059575
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 258,
+      "cost": 7700,
+      "engineCost": 5350,
+      "addedMass": 58.8,
+      "rpm": 6500,
+      "time": 16.826344243385126,
+      "speed": 196.57040297470485,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1200000000000006,
+      "splits": {
+        "100": 5.654937582779701,
+        "300": 10.860773361724233,
+        "600": 16.826344243385126
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 259,
+      "cost": 7760,
+      "engineCost": 5410,
+      "addedMass": 59.5,
+      "rpm": 6500,
+      "time": 16.81234835586635,
+      "speed": 196.7220029594247,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1400000000000006,
+      "splits": {
+        "100": 5.652733805973919,
+        "300": 10.853197810029439,
+        "600": 16.81234835586635
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 260,
+      "cost": 7810,
+      "engineCost": 5460,
+      "addedMass": 60.2,
+      "rpm": 6500,
+      "time": 16.79875620357519,
+      "speed": 196.86715036929644,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1600000000000006,
+      "splits": {
+        "100": 5.6497376626221,
+        "300": 10.845724838299155,
+        "600": 16.79875620357519
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 261,
+      "cost": 7860,
+      "engineCost": 5510,
+      "addedMass": 60.9,
+      "rpm": 6500,
+      "time": 16.785285479923783,
+      "speed": 197.0780554189987,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1600000000000006,
+      "splits": {
+        "100": 5.646779055068496,
+        "300": 10.838330687000965,
+        "600": 16.785285479923783
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 262,
+      "cost": 7920,
+      "engineCost": 5570,
+      "addedMass": 61.6,
+      "rpm": 6500,
+      "time": 16.77094148779887,
+      "speed": 197.23906820034912,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1600000000000006,
+      "splits": {
+        "100": 5.6447072108017045,
+        "300": 10.831072858855958,
+        "600": 16.77094148779887
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 263,
+      "cost": 7970,
+      "engineCost": 5620,
+      "addedMass": 62.3,
+      "rpm": 6500,
+      "time": 16.757637088521985,
+      "speed": 197.37964995612435,
+      "shifts": 3,
+      "tractionLimitedSeconds": 1.1600000000000006,
+      "splits": {
+        "100": 5.641783801956849,
+        "300": 10.82375942896109,
+        "600": 16.757637088521985
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "tall",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 264,
+      "cost": 7820,
+      "engineCost": 5670,
+      "addedMass": 63.1,
+      "rpm": 6250,
+      "time": 16.776404310862606,
+      "speed": 199.83116158517913,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.684026617212064,
+        "300": 10.842352852823865,
+        "600": 16.776404310862606
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 265,
+      "cost": 7880,
+      "engineCost": 5730,
+      "addedMass": 63.8,
+      "rpm": 6250,
+      "time": 16.763545779072803,
+      "speed": 200.10526817433288,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.681690813981324,
+        "300": 10.83548938364264,
+        "600": 16.763545779072803
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 266,
+      "cost": 7930,
+      "engineCost": 5780,
+      "addedMass": 64.5,
+      "rpm": 6250,
+      "time": 16.75025734925792,
+      "speed": 200.28046907134433,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.679367039111916,
+        "300": 10.828055486926994,
+        "600": 16.75025734925792
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 267,
+      "cost": 7990,
+      "engineCost": 5840,
+      "addedMass": 65.3,
+      "rpm": 6500,
+      "time": 16.73934119657576,
+      "speed": 199.1797287085311,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.651722299108115,
+        "300": 10.796811525714169,
+        "600": 16.73934119657576
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "battery",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 268,
+      "cost": 7790,
+      "engineCost": 5890,
+      "addedMass": 66,
+      "rpm": 6250,
+      "time": 16.752992324040754,
+      "speed": 200.606379526369,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.683687138621689,
+        "300": 10.83584255219996,
+        "600": 16.752992324040754
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 269,
+      "cost": 7850,
+      "engineCost": 5950,
+      "addedMass": 66.8,
+      "rpm": 6250,
+      "time": 16.74075851566562,
+      "speed": 200.86826938786604,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.681469130731356,
+        "300": 10.829337387097278,
+        "600": 16.74075851566562
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 270,
+      "cost": 7900,
+      "engineCost": 6000,
+      "addedMass": 67.5,
+      "rpm": 6250,
+      "time": 16.728221891732886,
+      "speed": 201.04811747237557,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.679191851896371,
+        "300": 10.822691507554257,
+        "600": 16.728221891732886
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 271,
+      "cost": 7960,
+      "engineCost": 6060,
+      "addedMass": 68.3,
+      "rpm": 6250,
+      "time": 16.717611807453334,
+      "speed": 201.19955529071754,
+      "shifts": 4,
+      "tractionLimitedSeconds": 1.9800000000000013,
+      "splits": {
+        "100": 5.67873691451128,
+        "300": 10.817606384063655,
+        "600": 16.717611807453334
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "undertray",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 272,
+      "cost": 7610,
+      "engineCost": 6110,
+      "addedMass": 69,
+      "rpm": 6500,
+      "time": 16.707806867077277,
+      "speed": 199.8983876693028,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.64856425998674,
+        "300": 10.782119867227673,
+        "600": 16.707806867077277
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 273,
+      "cost": 7670,
+      "engineCost": 6170,
+      "addedMass": 69.8,
+      "rpm": 6500,
+      "time": 16.69542319751636,
+      "speed": 200.0862628453663,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.6466186840056345,
+        "300": 10.775767437041965,
+        "600": 16.69542319751636
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 274,
+      "cost": 7720,
+      "engineCost": 6220,
+      "addedMass": 70.5,
+      "rpm": 6500,
+      "time": 16.684131894066766,
+      "speed": 200.33513942680318,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.644631824014285,
+        "300": 10.76957571228924,
+        "600": 16.684131894066766
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 275,
+      "cost": 7780,
+      "engineCost": 6280,
+      "addedMass": 71.3,
+      "rpm": 6500,
+      "time": 16.671887688494106,
+      "speed": 200.5196796004221,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.642716903227748,
+        "300": 10.763315406719325,
+        "600": 16.671887688494106
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 276,
+      "cost": 7830,
+      "engineCost": 6330,
+      "addedMass": 72.1,
+      "rpm": 6500,
+      "time": 16.660992276422736,
+      "speed": 200.76078874768172,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.640813164867842,
+        "300": 10.757370899154235,
+        "600": 16.660992276422736
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 277,
+      "cost": 7890,
+      "engineCost": 6390,
+      "addedMass": 72.8,
+      "rpm": 6500,
+      "time": 16.648470154666953,
+      "speed": 200.9511122471724,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.639650299415938,
+        "300": 10.751083775838893,
+        "600": 16.648470154666953
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 278,
+      "cost": 7950,
+      "engineCost": 6450,
+      "addedMass": 73.6,
+      "rpm": 6500,
+      "time": 16.636901240144237,
+      "speed": 201.10188913978587,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.63775295445693,
+        "300": 10.744920549822956,
+        "600": 16.636901240144237
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 279,
+      "cost": 8000,
+      "engineCost": 6500,
+      "addedMass": 74.4,
+      "rpm": 6500,
+      "time": 16.625655013301365,
+      "speed": 201.36739654297065,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.63586655046822,
+        "300": 10.739061705135102,
+        "600": 16.625655013301365
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 280,
+      "cost": 7660,
+      "engineCost": 6560,
+      "addedMass": 75.2,
+      "rpm": 6500,
+      "time": 16.810138360661753,
+      "speed": 200.1305773824526,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0600000000000014,
+      "splits": {
+        "100": 5.706944974205885,
+        "300": 10.875625541655127,
+        "600": 16.810138360661753
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 281,
+      "cost": 7720,
+      "engineCost": 6620,
+      "addedMass": 76,
+      "rpm": 6500,
+      "time": 16.798950514157944,
+      "speed": 200.27771032740705,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.0800000000000014,
+      "splits": {
+        "100": 5.705135979713497,
+        "300": 10.86975325422864,
+        "600": 16.798950514157944
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 282,
+      "cost": 7770,
+      "engineCost": 6670,
+      "addedMass": 76.8,
+      "rpm": 6500,
+      "time": 16.787457022873927,
+      "speed": 200.5590437708571,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.1000000000000014,
+      "splits": {
+        "100": 5.703355711471306,
+        "300": 10.863954951504075,
+        "600": 16.787457022873927
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 283,
+      "cost": 7830,
+      "engineCost": 6730,
+      "addedMass": 77.6,
+      "rpm": 6500,
+      "time": 16.777175552323307,
+      "speed": 200.69401705020618,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.1200000000000014,
+      "splits": {
+        "100": 5.702776944695254,
+        "300": 10.85863099203498,
+        "600": 16.777175552323307
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 284,
+      "cost": 7890,
+      "engineCost": 6790,
+      "addedMass": 78.4,
+      "rpm": 6500,
+      "time": 16.765853835273543,
+      "speed": 200.97168406557032,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.1400000000000015,
+      "splits": {
+        "100": 5.701063886833869,
+        "300": 10.852956376129898,
+        "600": 16.765853835273543
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 285,
+      "cost": 7950,
+      "engineCost": 6850,
+      "addedMass": 79.2,
+      "rpm": 6500,
+      "time": 16.755666337261907,
+      "speed": 201.09922904325015,
+      "shifts": 4,
+      "tractionLimitedSeconds": 2.1600000000000015,
+      "splits": {
+        "100": 5.699372572265424,
+        "300": 10.84742945876364,
+        "600": 16.755666337261907
+      },
+      "parts": {
+        "tires": "drag",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 286,
+      "cost": 7660,
+      "engineCost": 6910,
+      "addedMass": 80,
+      "rpm": 6500,
+      "time": 17.158798628969397,
+      "speed": 201.15155939172033,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.042389764794935,
+        "300": 11.243758860273669,
+        "600": 17.158798628969397
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 287,
+      "cost": 7710,
+      "engineCost": 6960,
+      "addedMass": 80.8,
+      "rpm": 6500,
+      "time": 17.150465152719313,
+      "speed": 201.37315469316843,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.041937454386359,
+        "300": 11.239977623156504,
+        "600": 17.150465152719313
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 288,
+      "cost": 7770,
+      "engineCost": 7020,
+      "addedMass": 81.6,
+      "rpm": 6500,
+      "time": 17.14217133684225,
+      "speed": 201.5935215370849,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.0414863296141235,
+        "300": 11.236212332906396,
+        "600": 17.14217133684225
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 289,
+      "cost": 7830,
+      "engineCost": 7080,
+      "addedMass": 82.5,
+      "rpm": 6500,
+      "time": 17.133184156513273,
+      "speed": 201.7507712077726,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.042324807086472,
+        "300": 11.232870599247951,
+        "600": 17.133184156513273
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 290,
+      "cost": 7890,
+      "engineCost": 7140,
+      "addedMass": 83.3,
+      "rpm": 6500,
+      "time": 17.124941445022255,
+      "speed": 201.9690600660493,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.041877285970479,
+        "300": 11.229129686741254,
+        "600": 17.124941445022255
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 291,
+      "cost": 7950,
+      "engineCost": 7200,
+      "addedMass": 84.1,
+      "rpm": 6500,
+      "time": 17.11610812546954,
+      "speed": 202.09410608754618,
+      "shifts": 4,
+      "tractionLimitedSeconds": 3.820000000000003,
+      "splits": {
+        "100": 6.041430902504155,
+        "300": 11.225338898409422,
+        "600": 17.11610812546954
+      },
+      "parts": {
+        "tires": "sport",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 292,
+      "cost": 7660,
+      "engineCost": 7260,
+      "addedMass": 85,
+      "rpm": 6250,
+      "time": 17.898061193591452,
+      "speed": 203.26449453013726,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.859999999999942,
+      "splits": {
+        "100": 6.697207464481085,
+        "300": 12.02029235246427,
+        "600": 17.898061193591452
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 293,
+      "cost": 7720,
+      "engineCost": 7320,
+      "addedMass": 85.8,
+      "rpm": 6250,
+      "time": 17.89205949415316,
+      "speed": 203.4569966133571,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.879999999999941,
+      "splits": {
+        "100": 6.697175724114975,
+        "300": 12.018460269825837,
+        "600": 17.89205949415316
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 294,
+      "cost": 7780,
+      "engineCost": 7380,
+      "addedMass": 86.7,
+      "rpm": 6250,
+      "time": 17.886259016040153,
+      "speed": 203.6330981628983,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.899999999999941,
+      "splits": {
+        "100": 6.697140066773432,
+        "300": 12.016690974056475,
+        "600": 17.886259016040153
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 295,
+      "cost": 7840,
+      "engineCost": 7440,
+      "addedMass": 87.5,
+      "rpm": 6250,
+      "time": 17.8809094642774,
+      "speed": 203.8237306829625,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.91999999999994,
+      "splits": {
+        "100": 6.6983485724120815,
+        "300": 12.01562298532567,
+        "600": 17.8809094642774
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 296,
+      "cost": 7900,
+      "engineCost": 7500,
+      "addedMass": 88.4,
+      "rpm": 6250,
+      "time": 17.875194759891706,
+      "speed": 203.90698731967143,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.93999999999994,
+      "splits": {
+        "100": 6.698313015555784,
+        "300": 12.013903125030629,
+        "600": 17.875194759891706
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 297,
+      "cost": 7960,
+      "engineCost": 7560,
+      "addedMass": 89.2,
+      "rpm": 6250,
+      "time": 17.869410054605503,
+      "speed": 204.0835489298445,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.95999999999994,
+      "splits": {
+        "100": 6.69828145412866,
+        "300": 12.012172760072886,
+        "600": 17.869410054605503
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "short-throw"
+      }
+    },
+    {
+      "hp": 298,
+      "cost": 7620,
+      "engineCost": 7620,
+      "addedMass": 90.1,
+      "rpm": 6500,
+      "time": 18.06503277269684,
+      "speed": 201.73466160253295,
+      "shifts": 4,
+      "tractionLimitedSeconds": 6.999999999999939,
+      "splits": {
+        "100": 6.732730759230375,
+        "300": 12.132593766060944,
+        "600": 18.06503277269684
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 299,
+      "cost": 7680,
+      "engineCost": 7680,
+      "addedMass": 90.9,
+      "rpm": 6500,
+      "time": 18.059452005054087,
+      "speed": 201.8205635070909,
+      "shifts": 4,
+      "tractionLimitedSeconds": 7.019999999999938,
+      "splits": {
+        "100": 6.732698335152624,
+        "300": 12.13103103043612,
+        "600": 18.059452005054087
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    },
+    {
+      "hp": 300,
+      "cost": 7740,
+      "engineCost": 7740,
+      "addedMass": 91.8,
+      "rpm": 6500,
+      "time": 18.05402546001737,
+      "speed": 202.01385595899075,
+      "shifts": 4,
+      "tractionLimitedSeconds": 7.039999999999938,
+      "splits": {
+        "100": 6.732661909521823,
+        "300": 12.129519537540041,
+        "600": 18.05402546001737
+      },
+      "parts": {
+        "tires": "street",
+        "weight": "stock",
+        "aero": "stock",
+        "gearing": "standard",
+        "shifter": "standard"
+      }
+    }
+  ],
+  "winner": {
+    "hp": 279,
+    "cost": 8000,
+    "engineCost": 6500,
+    "addedMass": 74.4,
+    "rpm": 6500,
+    "time": 16.625655013301365,
+    "speed": 201.36739654297065,
+    "shifts": 4,
+    "tractionLimitedSeconds": 2.0600000000000014,
+    "splits": {
+      "100": 5.63586655046822,
+      "300": 10.739061705135102,
+      "600": 16.625655013301365
+    },
+    "parts": {
+      "tires": "drag",
+      "weight": "stock",
+      "aero": "stock",
+      "gearing": "standard",
+      "shifter": "short-throw"
+    }
+  },
+  "shifts": [
+    {
+      "hp": 120,
+      "best": 20.480701040861007,
+      "rpm": 6000,
+      "maxRPM": 21.113842683373985,
+      "fine": 20.47653667637506
+    },
+    {
+      "hp": 180,
+      "best": 18.183359050954834,
+      "rpm": 6250,
+      "maxRPM": 18.53915471450965,
+      "fine": 18.178214697829407
+    },
+    {
+      "hp": 220,
+      "best": 17.348955048622823,
+      "rpm": 6250,
+      "maxRPM": 17.632254081778637,
+      "fine": 17.346048096589907
+    },
+    {
+      "hp": 250,
+      "best": 16.900997733690836,
+      "rpm": 6500,
+      "maxRPM": 17.17110457536296,
+      "fine": 16.89679187086995
+    },
+    {
+      "hp": 260,
+      "best": 16.79875620357519,
+      "rpm": 6500,
+      "maxRPM": 17.05484165240654,
+      "fine": 16.794680018088727
+    },
+    {
+      "hp": 279,
+      "best": 16.625655013301365,
+      "rpm": 6500,
+      "maxRPM": 16.907482150310482,
+      "fine": 16.620820730794502
+    },
+    {
+      "hp": 280,
+      "best": 16.810138360661753,
+      "rpm": 6500,
+      "maxRPM": 17.05201369043744,
+      "fine": 16.805681720930608
+    },
+    {
+      "hp": 300,
+      "best": 18.05402546001737,
+      "rpm": 6500,
+      "maxRPM": 18.249769390808712,
+      "fine": 18.043838378091685
+    }
+  ]
+}

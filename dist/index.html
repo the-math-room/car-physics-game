@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111719">
+  <meta name="description" content="Build an $8,000 drag car. Unlimited runs. One fastest time. A physics garage challenge.">
+  <title>Los Santos Drag Lab</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <header><a data-no-translate class="brand" href="./"><span class="brand-mark">LS</span><span>LOS SANTOS <b>DRAG LAB</b></span></a><div class="header-right"><label class="language-control" data-no-translate><span class="sr-only">Language / Idioma</span><select id="language" aria-label="Language / Idioma"><option value="en" lang="en">English</option><option value="es" lang="es">Español</option></select></label><span class="tag">PHYSICS / GARAGE CHALLENGE</span><button id="help" class="quiet">How to play</button></div></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">THE INDUSTRIAL STRIP · CLOSED COURSE</p><h1>Build smart. <em>Go fast.</em></h1><p>$8,000 to spend. Score your build at 600 m. Then survive the escalating course.</p></div><div class="session-summary"><div><span>SCORED RUNS</span><strong id="attempt-count">0</strong></div><div><span>PERSONAL BEST</span><strong id="best-time">— <small>s</small></strong></div></div></section>
+    <section class="build-dashboard panel" aria-label="Current build dashboard">
+      <div class="build-stat featured"><span>POWER / WEIGHT</span><strong id="power-weight">—</strong><small>kW per metric ton</small></div>
+      <div class="build-stat"><span>PEAK ENGINE POWER</span><strong><b id="power">—</b> <small>kW</small></strong><small id="horsepower">— hp</small></div>
+      <div class="build-stat"><span>TOTAL MASS</span><strong><b id="mass">1,120</b> <small>kg</small></strong><small>car + driver + upgrades</small></div>
+      <div class="build-stat"><span>TIRE GRIP</span><strong>μ <b id="grip">0.85</b></strong><small>friction coefficient</small></div>
+      <div class="build-stat"><span>DRAG AREA</span><strong><b id="drag-area">0.68</b> <small>m²</small></strong><small>CdA · lower means less drag</small></div>
+      <div class="build-stat budget-stat"><div class="wallet"><div><span>BUDGET REMAINING</span><strong id="remaining">$8,000</strong></div><span id="spent">$0 spent</span></div><div class="budget-bar"><i id="budget-fill"></i></div></div>
+      <p class="dashboard-hint">Power-to-weight = peak engine power ÷ total mass. Higher helps acceleration when power is the limit; tire grip and gearing still matter.</p>
+    </section>
+    <div class="workspace">
+      <aside class="garage panel">
+        <div class="panel-heading"><h2>Your garage</h2><span class="tag">RWD COUPE</span></div>
+        <fieldset id="parts"><legend class="sr-only">Choose car upgrades</legend></fieldset>
+        <p class="small-note">Parts budget only. Car and workshop supplied. Swap parts freely between attempts.</p>
+      </aside>
+      <section class="race-column">
+        <div class="race-launchbar panel"><div><p class="eyebrow">READY WHEN YOU ARE</p><p id="launch-note">Build score at 600 m. Then survive as long as you can.</p></div><button id="launch" class="primary">LAUNCH RUN 1</button><p id="status" role="status" aria-live="polite"></p></div>
+        <div class="track-panel panel">
+          <div class="track-top"><div><span class="live-label" id="race-state">READY AT THE LINE</span><h2>La Mesa sprint</h2></div><span class="track-length">600 <small>M CHECKPOINT</small></span></div>
+          <canvas id="track" tabindex="0" width="1100" height="540" aria-label="Perspective racing road. Use left and right arrows to dodge barriers. Speed and distance are also shown below."></canvas>
+          <div class="track-caption"><span>LEFT / RIGHT TO STEER</span><span>600 M TIMED CHECKPOINT</span><span>CRASHES GET FREE RETRIES</span></div>
+          <div class="driving-controls"><div><button id="steer-left" class="quiet" aria-label="Steer left">Steer left</button><button id="steer-right" class="quiet" aria-label="Steer right">Steer right</button></div><div><button id="sound" class="quiet" aria-pressed="true">Sound on</button><button id="pause" class="quiet" disabled>Pause</button></div></div><div class="dashboard"><div><span>ELAPSED</span><strong id="elapsed">0.00 <small>s</small></strong></div><div><span>SPEED</span><strong id="speed">0 <small>mph</small></strong></div><div><span>ENGINE</span><strong id="rpm-readout">0 <small>rpm</small></strong></div><div><span>GEAR</span><strong id="gear">N</strong></div></div>
+          <div class="checkpoint-banner"><span>600 M BUILD SCORE</span><strong id="checkpoint-score">Not reached</strong><small>Survival distance does not change this time.</small></div><div class="race-progress"><i id="distance-fill"></i></div>
+          <div class="force-row"><span id="distance">0 / 600 m</span><span id="forces">Driving force 0 N · Air drag 0 N</span></div>
+        </div>
+        <div class="setup-row">
+          <section class="panel shift-panel"><div class="panel-heading"><h2>Find your power band</h2><span class="tag">AUTO SHIFT</span></div><div class="shift-value"><label for="shift">Shift at</label><output id="shift-label" for="shift">6,500 <small>RPM</small></output></div><input id="shift" type="range" min="5000" max="7000" step="250" value="6500"><div class="range-labels"><span>5,000 RPM</span><span>7,000 RPM</span></div><svg id="dyno" viewBox="0 0 420 135" role="img" aria-label="Engine torque and power curves with selected shift RPM"></svg><div class="legend"><span class="torque-key">Torque (N·m)</span><span class="power-key">Power (kW)</span></div><p class="small-note">Gear changes drop engine RPM. The highest peak power doesn’t always mean the fastest run.</p></section>
+          <section class="panel launch-panel"><p class="eyebrow">PREDICT. TEST. REFINE.</p><h2 id="launch-title">Make your first move.</h2><label for="prediction">What will help this build go faster?</label><textarea id="prediction" rows="2" maxlength="400" placeholder="I’m investing in… because…"></textarea><p class="small-note">Make a prediction, then launch beside the race screen. Compare the evidence in your notebook.</p></section>
+        </div>
+      </section>
+    </div>
+    <section class="results panel"><div class="panel-heading"><div><p class="eyebrow">THE EVIDENCE</p><h2>Your race notebook</h2></div><div class="result-actions"><button id="export" class="quiet" disabled>Export results</button><button id="reset" class="quiet">New session</button></div></div><div id="runs"><div class="empty"><span class="empty-icon">▤</span><div><h3>Your first run sets the baseline.</h3><p>Compare splits, shift timing, and upgrade choices here after each attempt.</p></div></div></div></section>
+    <footer><span>A fictional garage. Real physics principles.</span><span>F = ma · P = τω · F<sub>drag</sub> = ½ρC<sub>d</sub>Av²</span><button id="model-info" class="text-button">Model & classroom notes</button></footer>
+  </main>
+  <dialog id="help-dialog"><div class="dialog-top"><p class="eyebrow">WELCOME TO THE GARAGE</p><button class="quiet close-dialog" aria-label="Close instructions">Close</button></div><h2>Build. Race. Learn. Repeat.</h2><ol><li><b>Build within $8,000.</b> Open any Modify panel to learn the physics, compare packages and explore graphs before installing.</li><li><b>Pick a shift RPM.</b> The driver shifts automatically at your chosen threshold. Watch the power and torque curves.</li><li><b>Predict, launch and steer.</b> Use left/right arrows or the steering buttons to dodge barriers. Your build time is saved at 600 m. Keep driving after the checkpoint: obstacles get closer together until you crash. Survival distance is separate from the build score. Retry as often as you like.</li><li><b>Revise with evidence.</b> Try changing one variable at a time. Use each run to test your prediction and improve your build.</li></ol><p>Your garage and attempts are saved in this browser. “New session” clears the notebook for a fresh start. Export your results before sharing a device.</p><button class="primary close-dialog">LET’S BUILD</button></dialog>
+  <dialog id="notes-dialog"><div class="dialog-top"><p class="eyebrow">UNDER THE HOOD</p><button class="quiet close-dialog">Close</button></div><h2>A model you can reason with.</h2><p>Engine torque, gear ratios, tire grip, rear-wheel weight transfer, mass, air drag and rolling resistance determine acceleration. Gear changes interrupt driving force.</p><p>This classroom model uses illustrative engine curves and rounded parts prices. It assumes an ideal launch clutch and traction control; grip-limited time is not wheelspin. Player steering and collisions are arcade mechanics. The build is scored at 600 m; afterward the same forward physics continues while obstacle spacing shrinks. Survival distance is separate from build time; lateral tire forces are not modeled. Engine audio is synthesized from RPM, with two firing pulses per revolution, not a recording. It omits turbo lag, tire heating, wind and rotational inertia.</p><p>More grip and more power can complement each other. Lightweight and aerodynamic parts can be poor value on a short course. Not every expensive upgrade earns its price.</p><p>For teachers: completed attempts are stored locally, not enforced by a server. “New session” is an intentional reset for shared devices. This is a standalone, unofficial educational activity with no connection to Rockstar Games.</p></dialog>
+  <dialog id="reset-dialog"><h2>Start a new session?</h2><p>This clears your current garage and race notebook on this browser. Export any results you want to keep first.</p><div class="dialog-actions"><button class="quiet close-dialog">Keep session</button><button id="confirm-reset" class="primary">Start fresh</button></div></dialog>
+</body>
+</html>
