@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./dist/">
+  <title>Los Santos Drag Lab</title>
+  <script>
+    const game = new URL('./dist/', window.location.href);
+    game.search = window.location.search;
+    game.hash = window.location.hash;
+    window.location.replace(game.href);
+  </script>
+</head>
+<body>
+  <p><a href="./dist/">Open the game / Abrir el juego</a></p>
+</body>
+</html>

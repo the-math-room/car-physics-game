@@ -3,7 +3,12 @@
 A standalone high-school physics garage challenge: spend up to $8,000, choose
 a shift RPM, and race as many times as you like on a 600-meter closed course.
 
-## Run locally
+## Play online
+
+Open https://the-math-room.github.io/car-physics-game/ to play in a browser.
+Players do not need Node.js or a local server.
+
+## Run locally (development only)
 
 Requires Node.js 18 or newer. No dependencies or installation step.
 
@@ -46,17 +51,18 @@ the tab pauses the race until Resume. Reduced-motion preferences suppress
 background movement and speed streaks while keeping essential barriers visible.
 Live speed uses mph; graphs and exports label their SI or km/h units explicitly.
 
-## Publish later
+## GitHub Pages
 
-`dist/` is the complete static website, with relative asset paths and no external
-services, fonts, trackers, or dependencies. It can be served under a domain root
-or repository subpath. Upload the contents to any static host.
+The root `index.html` opens the game in `dist/`. `.nojekyll` makes GitHub Pages
+serve the files directly instead of processing the repository as a Jekyll site.
+The README remains repository documentation, not the website entry point.
 
-For GitHub Pages, add the project to a repository and use a Pages deployment
-workflow that uploads `dist/` with `actions/upload-pages-artifact`. Alternatively,
-copy `dist/` contents into the repository's configured Pages source folder. Set
-the custom domain and DNS through the host when ready. No publication, remote
-repository creation, or domain configuration has been performed here.
+Use Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+Push updates to `main` to publish. The game uses relative asset paths, so this
+works both at the repository URL and on a custom domain configured in Pages.
+
+`dist/` is also a complete standalone static website. Other static hosts can
+publish that directory directly; it needs no build step or backend server.
 
 ## Validate and calibrate
 
